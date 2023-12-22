@@ -1,0 +1,199 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Tue Apr 27 12:35:26 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000004
+                   .org_2       code   0x000018    program   0x000002
+                   .org_3       code   0x000020    program   0x0005b6
+.config_300001_BUILD/DEFAULT/PRODUCTION/NEWPIC_    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/NEWPIC_    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/NEWPIC_    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/NEWPIC_    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000018    0x000019      
+                            0x000020    0x0005d5      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300005    0x300006      
+            1478 out of 8472 program addresses used, program memory utilization is 17%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               APAGA_AUTO   0x0004ce    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         CALCULAR_DECENAS   0x000350    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              CARREGA_RAM   0x000118    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               CHECK_AUTO   0x0004ba    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              CHECK_ENTER   0x000238    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+           CHECK_JOYSTICK   0x000458    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       CHECK_MAX_CARACTER   0x000242    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             CHECK_MESURE   0x000496    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       CHECK_MESURES_AUTO   0x0004c4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               CHECK_MODE   0x00050e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         CHECK_SINGLESHOT   0x00048c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       CONVERT_CHAR_ASCII   0x000330    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         DECREMENTA_GRAUS   0x00043e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     ECHO   0x0001a6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            ESCRIBE_LETRA   0x00024c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   ESPERA   0x0001d4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              ESPERA_10uS   0x000198    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              ESPERA_58uS   0x0001c6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                ESPERA_EE   0x000104    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               ESPERA_EE1   0x000268    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            ESPERA_REBOTS   0x0001d2    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                    FINAL   0x0004cc    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             FINAL_MOSTRA   0x00031e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 HIGH_RSI   0x000136    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   HUMANS   0x000174    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         INCREMENTA_GRAUS   0x000420    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 INIT_ADC   0x0000e4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              INIT_EEPROM   0x0000f2    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              INIT_EUSART   0x0000c4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          INIT_INTERRUPTS   0x000048    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            INIT_POINTERS   0x0000b4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               INIT_PORTS   0x00002a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                  INIT_T0   0x0000d6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                INIT_VARS   0x000052    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     LOOP   0x0005ca    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+   LOOP_ANALOGIC_REALTIME   0x0003d6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+     LOOP_ANALOGIC_SINGLE   0x0003b4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            LOOP_AUTOSCAN   0x0004e6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            LOOP_CENTENAS   0x000342    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             LOOP_DECENAS   0x000356    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             LOOP_DIGITAL   0x000392    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                LOOP_ECHO   0x0001be    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              LOOP_ECHO_2   0x0001ae    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          LOOP_ESCRIPTURA   0x00021e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             LOOP_INC_PWM   0x000412    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+      LOOP_LECTURA_EEPROM   0x0002a0    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         LOOP_LECTURA_RAM   0x0002c4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                LOOP_NUM7   0x0001e8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 LOOP_RAM   0x00011e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               LOOP_SERVO   0x000154    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              LOOP_nTIMES   0x00040e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     MAIN   0x00059e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   MESURE   0x00017a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+   MODE_ANALOGIC_REALTIME   0x0003d0    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+     MODE_ANALOGIC_SINGLE   0x0003ae    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                MODE_AUTO   0x0004a8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            MODE_AUTOSCAN   0x0004d4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             MODE_DIGITAL   0x00038c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         MODE_INSERIR_NOM   0x00020a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          MODE_MOSTRA_NOM   0x000278    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       MODE_MOSTRA_ULTIMA   0x0002f2    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          MODE_SINGLESHOT   0x000478    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+      MOSTRAR_200_MESURES   0x0002b4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+           MOSTRAR_MESURA   0x000366    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               MOSTRA_NOM   0x000294    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               NO_MOSTRAR   0x000324    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   NUM_7S   0x0001de    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                POS_SERVO   0x00040a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               PULSE_10uS   0x000190    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   RSI_T0   0x00013e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            SALTO_Y_ENTER   0x0001f8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 SAVE_MAX   0x000504    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 SI_GUION   0x0002e8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 WAIT_ADC   0x0003b6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                WAIT_ADC2   0x0003de    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                  WAIT_RX   0x00058c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                  WAIT_TX   0x000596    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     ZERO   0x00043a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               INIT_PORTS   0x00002a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          INIT_INTERRUPTS   0x000048    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                INIT_VARS   0x000052    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            INIT_POINTERS   0x0000b4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              INIT_EUSART   0x0000c4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                  INIT_T0   0x0000d6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 INIT_ADC   0x0000e4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              INIT_EEPROM   0x0000f2    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                ESPERA_EE   0x000104    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              CARREGA_RAM   0x000118    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 LOOP_RAM   0x00011e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 HIGH_RSI   0x000136    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   RSI_T0   0x00013e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               LOOP_SERVO   0x000154    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   HUMANS   0x000174    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   MESURE   0x00017a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               PULSE_10uS   0x000190    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              ESPERA_10uS   0x000198    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     ECHO   0x0001a6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              LOOP_ECHO_2   0x0001ae    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                LOOP_ECHO   0x0001be    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              ESPERA_58uS   0x0001c6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            ESPERA_REBOTS   0x0001d2    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   ESPERA   0x0001d4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                   NUM_7S   0x0001de    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                LOOP_NUM7   0x0001e8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            SALTO_Y_ENTER   0x0001f8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         MODE_INSERIR_NOM   0x00020a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          LOOP_ESCRIPTURA   0x00021e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              CHECK_ENTER   0x000238    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       CHECK_MAX_CARACTER   0x000242    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            ESCRIBE_LETRA   0x00024c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               ESPERA_EE1   0x000268    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          MODE_MOSTRA_NOM   0x000278    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               MOSTRA_NOM   0x000294    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+      LOOP_LECTURA_EEPROM   0x0002a0    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+      MOSTRAR_200_MESURES   0x0002b4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         LOOP_LECTURA_RAM   0x0002c4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 SI_GUION   0x0002e8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       MODE_MOSTRA_ULTIMA   0x0002f2    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             FINAL_MOSTRA   0x00031e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               NO_MOSTRAR   0x000324    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       CONVERT_CHAR_ASCII   0x000330    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            LOOP_CENTENAS   0x000342    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         CALCULAR_DECENAS   0x000350    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             LOOP_DECENAS   0x000356    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+           MOSTRAR_MESURA   0x000366    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             MODE_DIGITAL   0x00038c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             LOOP_DIGITAL   0x000392    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+     MODE_ANALOGIC_SINGLE   0x0003ae    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+     LOOP_ANALOGIC_SINGLE   0x0003b4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 WAIT_ADC   0x0003b6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+   MODE_ANALOGIC_REALTIME   0x0003d0    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+   LOOP_ANALOGIC_REALTIME   0x0003d6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                WAIT_ADC2   0x0003de    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                POS_SERVO   0x00040a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+              LOOP_nTIMES   0x00040e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             LOOP_INC_PWM   0x000412    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         INCREMENTA_GRAUS   0x000420    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     ZERO   0x00043a    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         DECREMENTA_GRAUS   0x00043e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+           CHECK_JOYSTICK   0x000458    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+          MODE_SINGLESHOT   0x000478    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+         CHECK_SINGLESHOT   0x00048c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+             CHECK_MESURE   0x000496    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                MODE_AUTO   0x0004a8    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               CHECK_AUTO   0x0004ba    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+       CHECK_MESURES_AUTO   0x0004c4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                    FINAL   0x0004cc    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               APAGA_AUTO   0x0004ce    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            MODE_AUTOSCAN   0x0004d4    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+            LOOP_AUTOSCAN   0x0004e6    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                 SAVE_MAX   0x000504    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+               CHECK_MODE   0x00050e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                  WAIT_RX   0x00058c    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                  WAIT_TX   0x000596    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     MAIN   0x00059e    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+                     LOOP   0x0005ca    program     static C:\Users\oscar\OneDrive - La Salle\SALLE\Compus\P2\MPLAB\P2-A.X\newpic_8b_general.asm
+
+
