@@ -1,0 +1,984 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"14 ./TUsers.h
+[; ;./TUsers.h: 14: typedef struct{
+[s S280 `uc -> 10 `i `uc 1 ]
+[n S280 . name score ]
+[t ~ __interrupt . k ]
+[t T41 __interrupt high_priority ]
+"6708 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4321.h
+[s S269 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S269 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"6718
+[s S270 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S270 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"6728
+[s S271 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S271 . . GIEL GIEH ]
+"6707
+[u S268 `S269 1 `S270 1 `S271 1 ]
+[n S268 . . . . ]
+"6734
+[v _INTCONbits `VS268 ~T0 @X0 0 e@4082 ]
+"24 ./TITTIMER.h
+[; ;./TITTIMER.h: 24: void RSI_Timer0(void);
+[v _RSI_Timer0 `(v ~T0 @X0 0 ef ]
+[p mainexit ]
+"26
+[; ;./TITTIMER.h: 26: void TiInit (void);
+[v _TiInit `(v ~T0 @X0 0 ef ]
+"30 ./LcTLCD.h
+[; ;./LcTLCD.h: 30: void LcInit(char Files, char Columnes);
+[v _LcInit `(v ~T0 @X0 0 ef2`uc`uc ]
+"18 ./TCentral.h
+[; ;./TCentral.h: 18: void initCentral(void);
+[v _initCentral `(v ~T0 @X0 0 ef ]
+"13 ./TTeclat.h
+[; ;./TTeclat.h: 13: void initTeclat(void);
+[v _initTeclat `(v ~T0 @X0 0 ef ]
+"45 ./TMenu.h
+[; ;./TMenu.h: 45: void initMenu(void);
+[v _initMenu `(v ~T0 @X0 0 ef ]
+"23 ./TUsers.h
+[; ;./TUsers.h: 23: void initUsers(void);
+[v _initUsers `(v ~T0 @X0 0 ef ]
+"14 ./THora.h
+[; ;./THora.h: 14: void initHora(void);
+[v _initHora `(v ~T0 @X0 0 ef ]
+"20 ./TSIO.h
+[; ;./TSIO.h: 20: void initSIO(void);
+[v _initSIO `(v ~T0 @X0 0 ef ]
+"15 ./TADC.h
+[; ;./TADC.h: 15: void initADC(void);
+[v _initADC `(v ~T0 @X0 0 ef ]
+"14 ./TAltaveu.h
+[; ;./TAltaveu.h: 14: void initAltaveu(void);
+[v _initAltaveu `(v ~T0 @X0 0 ef ]
+"14 ./TTeclat.h
+[; ;./TTeclat.h: 14: void motorTeclat(void);
+[v _motorTeclat `(v ~T0 @X0 0 ef ]
+"48 ./TMenu.h
+[; ;./TMenu.h: 48: void motorMenu(void);
+[v _motorMenu `(v ~T0 @X0 0 ef ]
+"17 ./THora.h
+[; ;./THora.h: 17: void motorHora(void);
+[v _motorHora `(v ~T0 @X0 0 ef ]
+"24 ./TSIO.h
+[; ;./TSIO.h: 24: void motorTX(void);
+[v _motorTX `(v ~T0 @X0 0 ef ]
+"18 ./THora.h
+[; ;./THora.h: 18: void motorAM(void);
+[v _motorAM `(v ~T0 @X0 0 ef ]
+"23 ./TSIO.h
+[; ;./TSIO.h: 23: void motorRX(void);
+[v _motorRX `(v ~T0 @X0 0 ef ]
+"17 ./TADC.h
+[; ;./TADC.h: 17: void motorADC(void);
+[v _motorADC `(v ~T0 @X0 0 ef ]
+"16 ./TAltaveu.h
+[; ;./TAltaveu.h: 16: void motorMusica(void);
+[v _motorMusica `(v ~T0 @X0 0 ef ]
+"15
+[; ;./TAltaveu.h: 15: void motorPWM(void);
+[v _motorPWM `(v ~T0 @X0 0 ef ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4321.h
+[; <" PORTA equ 0F80h ;# ">
+"287
+[; <" PORTB equ 0F81h ;# ">
+"466
+[; <" PORTC equ 0F82h ;# ">
+"646
+[; <" PORTD equ 0F83h ;# ">
+"788
+[; <" PORTE equ 0F84h ;# ">
+"991
+[; <" LATA equ 0F89h ;# ">
+"1103
+[; <" LATB equ 0F8Ah ;# ">
+"1215
+[; <" LATC equ 0F8Bh ;# ">
+"1327
+[; <" LATD equ 0F8Ch ;# ">
+"1439
+[; <" LATE equ 0F8Dh ;# ">
+"1491
+[; <" TRISA equ 0F92h ;# ">
+"1496
+[; <" DDRA equ 0F92h ;# ">
+"1713
+[; <" TRISB equ 0F93h ;# ">
+"1718
+[; <" DDRB equ 0F93h ;# ">
+"1935
+[; <" TRISC equ 0F94h ;# ">
+"1940
+[; <" DDRC equ 0F94h ;# ">
+"2157
+[; <" TRISD equ 0F95h ;# ">
+"2162
+[; <" DDRD equ 0F95h ;# ">
+"2379
+[; <" TRISE equ 0F96h ;# ">
+"2384
+[; <" DDRE equ 0F96h ;# ">
+"2543
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2608
+[; <" PIE1 equ 0F9Dh ;# ">
+"2685
+[; <" PIR1 equ 0F9Eh ;# ">
+"2762
+[; <" IPR1 equ 0F9Fh ;# ">
+"2839
+[; <" PIE2 equ 0FA0h ;# ">
+"2905
+[; <" PIR2 equ 0FA1h ;# ">
+"2971
+[; <" IPR2 equ 0FA2h ;# ">
+"3037
+[; <" EECON1 equ 0FA6h ;# ">
+"3103
+[; <" EECON2 equ 0FA7h ;# ">
+"3110
+[; <" EEDATA equ 0FA8h ;# ">
+"3117
+[; <" EEADR equ 0FA9h ;# ">
+"3124
+[; <" RCSTA equ 0FABh ;# ">
+"3129
+[; <" RCSTA1 equ 0FABh ;# ">
+"3334
+[; <" TXSTA equ 0FACh ;# ">
+"3339
+[; <" TXSTA1 equ 0FACh ;# ">
+"3590
+[; <" TXREG equ 0FADh ;# ">
+"3595
+[; <" TXREG1 equ 0FADh ;# ">
+"3602
+[; <" RCREG equ 0FAEh ;# ">
+"3607
+[; <" RCREG1 equ 0FAEh ;# ">
+"3614
+[; <" SPBRG equ 0FAFh ;# ">
+"3619
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3626
+[; <" SPBRGH equ 0FB0h ;# ">
+"3633
+[; <" T3CON equ 0FB1h ;# ">
+"3745
+[; <" TMR3 equ 0FB2h ;# ">
+"3752
+[; <" TMR3L equ 0FB2h ;# ">
+"3759
+[; <" TMR3H equ 0FB3h ;# ">
+"3766
+[; <" CMCON equ 0FB4h ;# ">
+"3856
+[; <" CVRCON equ 0FB5h ;# ">
+"3935
+[; <" ECCP1AS equ 0FB6h ;# ">
+"4017
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4022
+[; <" PWM1CON equ 0FB7h ;# ">
+"4155
+[; <" BAUDCON equ 0FB8h ;# ">
+"4160
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4335
+[; <" CCP2CON equ 0FBAh ;# ">
+"4414
+[; <" CCPR2 equ 0FBBh ;# ">
+"4421
+[; <" CCPR2L equ 0FBBh ;# ">
+"4428
+[; <" CCPR2H equ 0FBCh ;# ">
+"4435
+[; <" CCP1CON equ 0FBDh ;# ">
+"4440
+[; <" ECCP1CON equ 0FBDh ;# ">
+"4627
+[; <" CCPR1 equ 0FBEh ;# ">
+"4634
+[; <" CCPR1L equ 0FBEh ;# ">
+"4641
+[; <" CCPR1H equ 0FBFh ;# ">
+"4648
+[; <" ADCON2 equ 0FC0h ;# ">
+"4719
+[; <" ADCON1 equ 0FC1h ;# ">
+"4804
+[; <" ADCON0 equ 0FC2h ;# ">
+"4923
+[; <" ADRES equ 0FC3h ;# ">
+"4930
+[; <" ADRESL equ 0FC3h ;# ">
+"4937
+[; <" ADRESH equ 0FC4h ;# ">
+"4944
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5039
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5109
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5330
+[; <" SSPADD equ 0FC8h ;# ">
+"5337
+[; <" SSPBUF equ 0FC9h ;# ">
+"5344
+[; <" T2CON equ 0FCAh ;# ">
+"5442
+[; <" PR2 equ 0FCBh ;# ">
+"5447
+[; <" MEMCON equ 0FCBh ;# ">
+"5552
+[; <" TMR2 equ 0FCCh ;# ">
+"5559
+[; <" T1CON equ 0FCDh ;# ">
+"5662
+[; <" TMR1 equ 0FCEh ;# ">
+"5669
+[; <" TMR1L equ 0FCEh ;# ">
+"5676
+[; <" TMR1H equ 0FCFh ;# ">
+"5683
+[; <" RCON equ 0FD0h ;# ">
+"5817
+[; <" WDTCON equ 0FD1h ;# ">
+"5845
+[; <" HLVDCON equ 0FD2h ;# ">
+"5850
+[; <" LVDCON equ 0FD2h ;# ">
+"6103
+[; <" OSCCON equ 0FD3h ;# ">
+"6186
+[; <" T0CON equ 0FD5h ;# ">
+"6263
+[; <" TMR0 equ 0FD6h ;# ">
+"6270
+[; <" TMR0L equ 0FD6h ;# ">
+"6277
+[; <" TMR0H equ 0FD7h ;# ">
+"6284
+[; <" STATUS equ 0FD8h ;# ">
+"6355
+[; <" FSR2 equ 0FD9h ;# ">
+"6362
+[; <" FSR2L equ 0FD9h ;# ">
+"6369
+[; <" FSR2H equ 0FDAh ;# ">
+"6376
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6383
+[; <" PREINC2 equ 0FDCh ;# ">
+"6390
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6397
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6404
+[; <" INDF2 equ 0FDFh ;# ">
+"6411
+[; <" BSR equ 0FE0h ;# ">
+"6418
+[; <" FSR1 equ 0FE1h ;# ">
+"6425
+[; <" FSR1L equ 0FE1h ;# ">
+"6432
+[; <" FSR1H equ 0FE2h ;# ">
+"6439
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6446
+[; <" PREINC1 equ 0FE4h ;# ">
+"6453
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6460
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6467
+[; <" INDF1 equ 0FE7h ;# ">
+"6474
+[; <" WREG equ 0FE8h ;# ">
+"6486
+[; <" FSR0 equ 0FE9h ;# ">
+"6493
+[; <" FSR0L equ 0FE9h ;# ">
+"6500
+[; <" FSR0H equ 0FEAh ;# ">
+"6507
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6514
+[; <" PREINC0 equ 0FECh ;# ">
+"6521
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6528
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6535
+[; <" INDF0 equ 0FEFh ;# ">
+"6542
+[; <" INTCON3 equ 0FF0h ;# ">
+"6634
+[; <" INTCON2 equ 0FF1h ;# ">
+"6704
+[; <" INTCON equ 0FF2h ;# ">
+"6821
+[; <" PROD equ 0FF3h ;# ">
+"6828
+[; <" PRODL equ 0FF3h ;# ">
+"6835
+[; <" PRODH equ 0FF4h ;# ">
+"6842
+[; <" TABLAT equ 0FF5h ;# ">
+"6851
+[; <" TBLPTR equ 0FF6h ;# ">
+"6858
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6865
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6872
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6881
+[; <" PCLAT equ 0FF9h ;# ">
+"6888
+[; <" PC equ 0FF9h ;# ">
+"6895
+[; <" PCL equ 0FF9h ;# ">
+"6902
+[; <" PCLATH equ 0FFAh ;# ">
+"6909
+[; <" PCLATU equ 0FFBh ;# ">
+"6916
+[; <" STKPTR equ 0FFCh ;# ">
+"6990
+[; <" TOS equ 0FFDh ;# ">
+"6997
+[; <" TOSL equ 0FFDh ;# ">
+"7004
+[; <" TOSH equ 0FFEh ;# ">
+"7011
+[; <" TOSU equ 0FFFh ;# ">
+"19 ./TUsers.h
+[; ;./TUsers.h: 19: User users1[10];
+[v _users1 `S280 ~T0 @X0 -> 10 `i e ]
+"20
+[; ;./TUsers.h: 20: User users2[10];
+[v _users2 `S280 ~T0 @X0 -> 10 `i e ]
+"21
+[; ;./TUsers.h: 21: unsigned char numUsers, user, array;
+[v _numUsers `uc ~T0 @X0 1 e ]
+[v _user `uc ~T0 @X0 1 e ]
+[v _array `uc ~T0 @X0 1 e ]
+"12 ./TSIO.h
+[; ;./TSIO.h: 12: const char UP = 'U';
+[v _UP `Cuc ~T0 @X0 1 e ]
+[i _UP
+-> -> 85 `ui `uc
+]
+"13
+[; ;./TSIO.h: 13: const char DOWN = 'D';
+[v _DOWN `Cuc ~T0 @X0 1 e ]
+[i _DOWN
+-> -> 68 `ui `uc
+]
+"14
+[; ;./TSIO.h: 14: const char LEFT = 'L';
+[v _LEFT `Cuc ~T0 @X0 1 e ]
+[i _LEFT
+-> -> 76 `ui `uc
+]
+"15
+[; ;./TSIO.h: 15: const char RIGHT = 'R';
+[v _RIGHT `Cuc ~T0 @X0 1 e ]
+[i _RIGHT
+-> -> 82 `ui `uc
+]
+"17
+[; ;./TSIO.h: 17: unsigned char playing, AM;
+[v _playing `uc ~T0 @X0 1 e ]
+[v _AM `uc ~T0 @X0 1 e ]
+"18
+[; ;./TSIO.h: 18: unsigned char points[3], hScore[3];
+[v _points `uc ~T0 @X0 -> 3 `i e ]
+[v _hScore `uc ~T0 @X0 -> 3 `i e ]
+"19 ./TMenu.h
+[; ;./TMenu.h: 19: const unsigned char ARROW[3] = {'-','>',' '};
+[v _ARROW `Cuc ~T0 @X0 -> 3 `i e ]
+[i _ARROW
+:U ..
+-> -> 45 `ui `uc
+-> -> 62 `ui `uc
+-> -> 32 `ui `uc
+..
+]
+"20
+[; ;./TMenu.h: 20: const unsigned char OPTION1[20] = {"1. New Game"};
+[v _OPTION1 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _OPTION1
+:U ..
+-> 49 `c
+-> 46 `c
+-> 32 `c
+-> 78 `c
+-> 101 `c
+-> 119 `c
+-> 32 `c
+-> 71 `c
+-> 97 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"21
+[; ;./TMenu.h: 21: const unsigned char OPTION2[20] = {"2. Show top 5 scores"};
+[v _OPTION2 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _OPTION2
+:U ..
+-> 50 `c
+-> 46 `c
+-> 32 `c
+-> 83 `c
+-> 104 `c
+-> 111 `c
+-> 119 `c
+-> 32 `c
+-> 116 `c
+-> 111 `c
+-> 112 `c
+-> 32 `c
+-> 53 `c
+-> 32 `c
+-> 115 `c
+-> 99 `c
+-> 111 `c
+-> 114 `c
+-> 101 `c
+-> 115 `c
+..
+]
+"22
+[; ;./TMenu.h: 22: const unsigned char OPTION3[20] = {"3. Show users"};
+[v _OPTION3 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _OPTION3
+:U ..
+-> 51 `c
+-> 46 `c
+-> 32 `c
+-> 83 `c
+-> 104 `c
+-> 111 `c
+-> 119 `c
+-> 32 `c
+-> 117 `c
+-> 115 `c
+-> 101 `c
+-> 114 `c
+-> 115 `c
+-> 0 `c
+..
+]
+"23
+[; ;./TMenu.h: 23: const unsigned char OPTION4[20] = {"4. Modify users"};
+[v _OPTION4 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _OPTION4
+:U ..
+-> 52 `c
+-> 46 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 100 `c
+-> 105 `c
+-> 102 `c
+-> 121 `c
+-> 32 `c
+-> 117 `c
+-> 115 `c
+-> 101 `c
+-> 114 `c
+-> 115 `c
+-> 0 `c
+..
+]
+"24
+[; ;./TMenu.h: 24: const unsigned char OPTION5[20] = {"5. Show time"};
+[v _OPTION5 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _OPTION5
+:U ..
+-> 53 `c
+-> 46 `c
+-> 32 `c
+-> 83 `c
+-> 104 `c
+-> 111 `c
+-> 119 `c
+-> 32 `c
+-> 116 `c
+-> 105 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"25
+[; ;./TMenu.h: 25: const unsigned char OPTION6[20] = {"6. Modify time"};
+[v _OPTION6 `Cuc ~T0 @X0 -> 20 `i e ]
+[i _OPTION6
+:U ..
+-> 54 `c
+-> 46 `c
+-> 32 `c
+-> 77 `c
+-> 111 `c
+-> 100 `c
+-> 105 `c
+-> 102 `c
+-> 121 `c
+-> 32 `c
+-> 116 `c
+-> 105 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"27
+[; ;./TMenu.h: 27: const unsigned char SELECT_USER[20] = {"1. Select User"};
+[v _SELECT_USER `Cuc ~T0 @X0 -> 20 `i e ]
+[i _SELECT_USER
+:U ..
+-> 49 `c
+-> 46 `c
+-> 32 `c
+-> 83 `c
+-> 101 `c
+-> 108 `c
+-> 101 `c
+-> 99 `c
+-> 116 `c
+-> 32 `c
+-> 85 `c
+-> 115 `c
+-> 101 `c
+-> 114 `c
+-> 0 `c
+..
+]
+"28
+[; ;./TMenu.h: 28: const unsigned char NEW_USER[20] = {"2. New User"};
+[v _NEW_USER `Cuc ~T0 @X0 -> 20 `i e ]
+[i _NEW_USER
+:U ..
+-> 50 `c
+-> 46 `c
+-> 32 `c
+-> 78 `c
+-> 101 `c
+-> 119 `c
+-> 32 `c
+-> 85 `c
+-> 115 `c
+-> 101 `c
+-> 114 `c
+-> 0 `c
+..
+]
+"29
+[; ;./TMenu.h: 29: const unsigned char EDIT_NAME[20] = {"Edit Name"};
+[v _EDIT_NAME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _EDIT_NAME
+:U ..
+-> 69 `c
+-> 100 `c
+-> 105 `c
+-> 116 `c
+-> 32 `c
+-> 78 `c
+-> 97 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"30
+[; ;./TMenu.h: 30: const unsigned char DELETE_USER[20] = {"Delete User"};
+[v _DELETE_USER `Cuc ~T0 @X0 -> 20 `i e ]
+[i _DELETE_USER
+:U ..
+-> 68 `c
+-> 101 `c
+-> 108 `c
+-> 101 `c
+-> 116 `c
+-> 101 `c
+-> 32 `c
+-> 85 `c
+-> 115 `c
+-> 101 `c
+-> 114 `c
+-> 0 `c
+..
+]
+"31
+[; ;./TMenu.h: 31: const unsigned char ENTER_NAME[20] = {"Enter Name:"};
+[v _ENTER_NAME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _ENTER_NAME
+:U ..
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 78 `c
+-> 97 `c
+-> 109 `c
+-> 101 `c
+-> 58 `c
+-> 0 `c
+..
+]
+"32
+[; ;./TMenu.h: 32: const unsigned char ENTER_NEW_NAME[20] = {"Enter New Name"};
+[v _ENTER_NEW_NAME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _ENTER_NEW_NAME
+:U ..
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 78 `c
+-> 101 `c
+-> 119 `c
+-> 32 `c
+-> 78 `c
+-> 97 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"33
+[; ;./TMenu.h: 33: const unsigned char SHOW_TIME[20] = {"Current Time"};
+[v _SHOW_TIME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _SHOW_TIME
+:U ..
+-> 67 `c
+-> 117 `c
+-> 114 `c
+-> 114 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 32 `c
+-> 84 `c
+-> 105 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"34
+[; ;./TMenu.h: 34: const unsigned char ENTER_NEWTIME[20] = {"Enter New Time"};
+[v _ENTER_NEWTIME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _ENTER_NEWTIME
+:U ..
+-> 69 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 32 `c
+-> 78 `c
+-> 101 `c
+-> 119 `c
+-> 32 `c
+-> 84 `c
+-> 105 `c
+-> 109 `c
+-> 101 `c
+-> 0 `c
+..
+]
+"35
+[; ;./TMenu.h: 35: const unsigned char TIME[20] = {"(HH:MM):"};
+[v _TIME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _TIME
+:U ..
+-> 40 `c
+-> 72 `c
+-> 72 `c
+-> 58 `c
+-> 77 `c
+-> 77 `c
+-> 41 `c
+-> 58 `c
+-> 0 `c
+..
+]
+"36
+[; ;./TMenu.h: 36: const unsigned char SCORE[20] = {"Score: "};
+[v _SCORE `Cuc ~T0 @X0 -> 20 `i e ]
+[i _SCORE
+:U ..
+-> 83 `c
+-> 99 `c
+-> 111 `c
+-> 114 `c
+-> 101 `c
+-> 58 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"37
+[; ;./TMenu.h: 37: unsigned char HIGH_SCORE[20] = {"High score: "};
+[v _HIGH_SCORE `uc ~T0 @X0 -> 20 `i e ]
+[i _HIGH_SCORE
+:U ..
+-> 72 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 32 `c
+-> 115 `c
+-> 99 `c
+-> 111 `c
+-> 114 `c
+-> 101 `c
+-> 58 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"38
+[; ;./TMenu.h: 38: const unsigned char INFO_GAME[20] = {"T       | S "};
+[v _INFO_GAME `Cuc ~T0 @X0 -> 20 `i e ]
+[i _INFO_GAME
+:U ..
+-> 84 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 32 `c
+-> 124 `c
+-> 32 `c
+-> 83 `c
+-> 32 `c
+-> 0 `c
+..
+]
+"40
+[; ;./TMenu.h: 40: unsigned char pos, subMenu;
+[v _pos `uc ~T0 @X0 1 e ]
+[v _subMenu `uc ~T0 @X0 1 e ]
+"41
+[; ;./TMenu.h: 41: unsigned char mGame, mModUSelect, mModUEdit;
+[v _mGame `uc ~T0 @X0 1 e ]
+[v _mModUSelect `uc ~T0 @X0 1 e ]
+[v _mModUEdit `uc ~T0 @X0 1 e ]
+"42
+[; ;./TMenu.h: 42: unsigned char time[5], timeAM[5];
+[v _time `uc ~T0 @X0 -> 5 `i e ]
+[v _timeAM `uc ~T0 @X0 -> 5 `i e ]
+"43
+[; ;./TMenu.h: 43: unsigned char showHora, showAM;
+[v _showHora `uc ~T0 @X0 1 e ]
+[v _showAM `uc ~T0 @X0 1 e ]
+"16 ./TCentral.h
+[; ;./TCentral.h: 16: unsigned char modeSMS;
+[v _modeSMS `uc ~T0 @X0 1 e ]
+"12 ./TSms.h
+[; ;./TSms.h: 12: const unsigned char key2[]={'A','B','C','2'};
+[v _key2 `Cuc ~T0 @X0 -> 4 `i e ]
+[i _key2
+:U ..
+-> -> 65 `ui `uc
+-> -> 66 `ui `uc
+-> -> 67 `ui `uc
+-> -> 50 `ui `uc
+..
+]
+"13
+[; ;./TSms.h: 13: const unsigned char key3[]={'D','E','F','3'};
+[v _key3 `Cuc ~T0 @X0 -> 4 `i e ]
+[i _key3
+:U ..
+-> -> 68 `ui `uc
+-> -> 69 `ui `uc
+-> -> 70 `ui `uc
+-> -> 51 `ui `uc
+..
+]
+"14
+[; ;./TSms.h: 14: const unsigned char key4[]={'G','H','I','4'};
+[v _key4 `Cuc ~T0 @X0 -> 4 `i e ]
+[i _key4
+:U ..
+-> -> 71 `ui `uc
+-> -> 72 `ui `uc
+-> -> 73 `ui `uc
+-> -> 52 `ui `uc
+..
+]
+"15
+[; ;./TSms.h: 15: const unsigned char key5[]={'J','K','L','5'};
+[v _key5 `Cuc ~T0 @X0 -> 4 `i e ]
+[i _key5
+:U ..
+-> -> 74 `ui `uc
+-> -> 75 `ui `uc
+-> -> 76 `ui `uc
+-> -> 53 `ui `uc
+..
+]
+"16
+[; ;./TSms.h: 16: const unsigned char key6[]={'M','N','O','6'};
+[v _key6 `Cuc ~T0 @X0 -> 4 `i e ]
+[i _key6
+:U ..
+-> -> 77 `ui `uc
+-> -> 78 `ui `uc
+-> -> 79 `ui `uc
+-> -> 54 `ui `uc
+..
+]
+"17
+[; ;./TSms.h: 17: const unsigned char key7[]={'P','Q','R','S','7'};
+[v _key7 `Cuc ~T0 @X0 -> 5 `i e ]
+[i _key7
+:U ..
+-> -> 80 `ui `uc
+-> -> 81 `ui `uc
+-> -> 82 `ui `uc
+-> -> 83 `ui `uc
+-> -> 55 `ui `uc
+..
+]
+"18
+[; ;./TSms.h: 18: const unsigned char key8[]={'T','U','V','8'};
+[v _key8 `Cuc ~T0 @X0 -> 4 `i e ]
+[i _key8
+:U ..
+-> -> 84 `ui `uc
+-> -> 85 `ui `uc
+-> -> 86 `ui `uc
+-> -> 56 `ui `uc
+..
+]
+"19
+[; ;./TSms.h: 19: const unsigned char key9[]={'W','X','Y','Z','9'};
+[v _key9 `Cuc ~T0 @X0 -> 5 `i e ]
+[i _key9
+:U ..
+-> -> 87 `ui `uc
+-> -> 88 `ui `uc
+-> -> 89 `ui `uc
+-> -> 90 `ui `uc
+-> -> 57 `ui `uc
+..
+]
+"19 main.c
+[; ;main.c: 19:   initADC();
+[p x OSC  =  INTIO2 ]
+"20
+[; ;main.c: 20:   initAltaveu();
+[p x PBADEN  =  DIG ]
+"21
+[; ;main.c: 21: 
+[p x DEBUG  =  OFF ]
+"22
+[; ;main.c: 22:   while(1) {
+[p x PWRT  =  OFF ]
+"23
+[; ;main.c: 23:       motorTeclat();
+[p x BOR  =  OFF ]
+"24
+[; ;main.c: 24:       motorMenu();
+[p x WDT  =  OFF ]
+"25
+[; ;main.c: 25:       motorHora();
+[p x LVP  =  OFF ]
+[v $root$_RSI_High `(v ~T0 @X0 0 e ]
+"29
+[; ;main.c: 29:       motorADC();
+[v _RSI_High `(v ~T41 @X0 1 ef ]
+{
+[e :U _RSI_High ]
+[f ]
+"30
+[; ;main.c: 30:       motorMusica();
+[e $ ! == -> . . _INTCONbits 0 2 `i -> 1 `i 282  ]
+{
+"31
+[; ;main.c: 31:       motorPWM();
+[e ( _RSI_Timer0 ..  ]
+"32
+[; ;main.c: 32:   }
+}
+[e :U 282 ]
+"33
+[; ;main.c: 33: }
+[e :UE 281 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"35
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"36
+[e = . . _INTCONbits 1 7 = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
+"38
+[e ( _TiInit ..  ]
+"39
+[e ( _LcInit (2 , -> -> 2 `i `uc -> -> 16 `i `uc ]
+"40
+[e ( _initCentral ..  ]
+"41
+[e ( _initTeclat ..  ]
+"42
+[e ( _initMenu ..  ]
+"43
+[e ( _initUsers ..  ]
+"44
+[e ( _initHora ..  ]
+"45
+[e ( _initSIO ..  ]
+"46
+[e ( _initADC ..  ]
+"47
+[e ( _initAltaveu ..  ]
+"49
+[e :U 285 ]
+{
+"50
+[e ( _motorTeclat ..  ]
+"51
+[e ( _motorMenu ..  ]
+"52
+[e ( _motorHora ..  ]
+"53
+[e ( _motorTX ..  ]
+"54
+[e ( _motorAM ..  ]
+"55
+[e ( _motorRX ..  ]
+"56
+[e ( _motorADC ..  ]
+"57
+[e ( _motorMusica ..  ]
+"58
+[e ( _motorPWM ..  ]
+"59
+}
+[e :U 284 ]
+[e $U 285  ]
+[e :U 286 ]
+"60
+[e :UE 283 ]
+}
