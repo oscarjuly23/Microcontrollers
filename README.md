@@ -10,5 +10,5 @@ El proyecto consiste en el desarrollo de un simulador de un barco implementado m
 ## Proyectos de Sistemas Cooperativos
 ### [LSSnake](https://github.com/oscarjuly23/Microcontrollers/tree/main/LSSnake)
 Este proyecto consiste en desarrollar el juego "Snake" con un enfoque cooperativo utilizando el microcontrolador PIC18F4321. El juego está implementado en Java y se ejecuta en el ordenador, mientras que el controlador interactúa con el usuario y se comunica con el ordenador.
-### [LSControlTower](https://github.com/oscarjuly23/Microcontrollers/tree/main/LSControlTower
+### [LSControlTower](https://github.com/oscarjuly23/Microcontrollers/tree/main/LSControlTower)
 Se solicita implementar una nueva funcionalidad en el barco para que pueda establecer contacto con el puerto. Se utilizará el mismo microcontrolador PIC18F4321 y la metodología de sistemas cooperativos. El sistema incluye un joystick, un altavoz, un micrófono con amplificador, un teclado matricial 3x4, una pantalla LCD y una conexión serie a un dispositivo externo (una computadora portátil) que ejecutará una aplicación Java para proporcionar una interfaz gráfica al sistema.
