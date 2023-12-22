@@ -1,0 +1,2139 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 34 34 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
+$dist/default/production\FINALULTIM.X.production.o
+cinit CODE 0 161A 161A 52 1 2
+idloc IDLOC 5 200000 200000 8 1 1
+text0 CODE 0 1514 1514 5C 1 2
+text1 CODE 0 E68 E68 9A 1 2
+text2 CODE 0 1316 1316 68 1 2
+text3 CODE 0 38 38 1A4 1 2
+text4 CODE 0 C54 C54 CA 1 2
+text5 CODE 0 1570 1570 56 1 2
+text6 CODE 0 1C46 1C46 10 1 2
+text7 CODE 0 1032 1032 8E 1 2
+text8 CODE 0 1A6E 1A6E 1E 1 2
+text9 CODE 0 1BEC 1BEC 12 1 2
+text10 CODE 0 1C56 1C56 10 1 2
+text11 CODE 0 1BFE 1BFE 12 1 2
+text12 CODE 0 1B3A 1B3A 18 1 2
+text13 CODE 0 1748 1748 42 1 2
+text14 CODE 0 137E 137E 66 1 2
+text15 CODE 0 1974 1974 2E 1 2
+text16 CODE 0 16BC 16BC 46 1 2
+text17 CODE 0 1A8C 1A8C 1E 1 2
+text18 CODE 0 1C96 1C96 6 1 2
+text19 CODE 0 F02 F02 98 1 2
+text20 CODE 0 1C9C 1C9C 6 1 2
+text21 CODE 0 1878 1878 36 1 2
+text22 CODE 0 1B82 1B82 16 1 2
+text23 CODE 0 1702 1702 46 1 2
+text24 CODE 0 19A2 19A2 2E 1 2
+text25 CODE 0 50A 50A 138 1 2
+text26 CODE 0 10C0 10C0 7E 1 2
+text27 CODE 0 AAC AAC DC 1 2
+text28 CODE 0 1CA2 1CA2 6 1 2
+text29 CODE 0 1CAE 1CAE 4 1 2
+text30 CODE 0 1AE6 1AE6 1C 1 2
+text31 CODE 0 1C10 1C10 12 1 2
+text32 CODE 0 1C8E 1C8E 8 1 2
+text33 CODE 0 1BC4 1BC4 14 1 2
+text34 CODE 0 1CA8 1CA8 6 1 2
+text35 CODE 0 89C 89C 10A 1 2
+text36 CODE 0 1AAA 1AAA 1E 1 2
+text37 CODE 0 166C 166C 50 1 2
+text38 CODE 0 1C76 1C76 E 1 2
+text39 CODE 0 1BD8 1BD8 14 1 2
+text40 CODE 0 37A 37A 190 1 2
+text41 CODE 0 1DC 1DC 19E 1 2
+text42 CODE 0 642 642 130 1 2
+text43 CODE 0 9A6 9A6 106 1 2
+text44 CODE 0 15C6 15C6 54 1 2
+text45 CODE 0 DCA DCA 9E 1 2
+text46 CODE 0 1808 1808 38 1 2
+text47 CODE 0 F9A F9A 98 1 2
+text48 CODE 0 12AC 12AC 6A 1 2
+text49 CODE 0 1914 1914 30 1 2
+text50 CODE 0 1944 1944 30 1 2
+text51 CODE 0 1B02 1B02 1C 1 2
+text52 CODE 0 1AC8 1AC8 1E 1 2
+text53 CODE 0 1B98 1B98 16 1 2
+text54 CODE 0 113E 113E 7E 1 2
+text55 CODE 0 D1E D1E AC 1 2
+text56 CODE 0 1CB2 1CB2 4 1 2
+text57 CODE 0 1CB6 1CB6 4 1 2
+text58 CODE 0 1B52 1B52 18 1 2
+text59 CODE 0 1B6A 1B6A 18 1 2
+text60 CODE 0 772 772 12A 1 2
+text61 CODE 0 1C66 1C66 10 1 2
+text62 CODE 0 19FC 19FC 26 1 2
+text63 CODE 0 178A 178A 40 1 2
+text64 CODE 0 1C22 1C22 12 1 2
+text65 CODE 0 1BAE 1BAE 16 1 2
+text66 CODE 0 1C84 1C84 A 1 2
+text67 CODE 0 1A22 1A22 26 1 2
+text68 CODE 0 1840 1840 38 1 2
+text69 CODE 0 B88 B88 CC 1 2
+text70 CODE 0 17CA 17CA 3E 1 2
+text71 CODE 0 18E2 18E2 32 1 2
+text72 CODE 0 19D0 19D0 2C 1 2
+text73 CODE 0 1C34 1C34 12 1 2
+text74 CODE 0 18AE 18AE 34 1 2
+text75 CODE 0 11BC 11BC 7C 1 2
+text76 CODE 0 1B1E 1B1E 1C 1 2
+text77 CODE 0 13E4 13E4 66 1 2
+text78 CODE 0 144A 144A 66 1 2
+text80 CODE 0 1238 1238 74 1 2
+text81 CODE 0 1A48 1A48 26 1 2
+cstackCOMRAM COMRAM 1 5A 5A 1A 1 1
+cstackBANK1 BANK1 1 1B0 1B0 13 1 1
+temp COMRAM 1 74 74 1 1 1
+bssBANK0 BANK0 1 E4 E4 1C 1 1
+bssBANK1 BANK1 1 100 100 B0 1 1
+intcode CODE 0 8 8 2C 1 2
+idataBANK0 CODE 0 14B0 14B0 64 1 1
+dataBANK0 BANK0 1 80 80 64 1 1
+bssCOMRAM COMRAM 1 1 1 59 1 1
+mediumconst MEDIUMCONST 0 1EEC 1EEC 114 1 2
+config CONFIG 4 300000 300000 E 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 1C3-1FF 1
+SFR F80-FFF 1
+BANK1 1C3-1FF 1
+CONST 4-7 1
+CONST 1CBA-1EEB 1
+SMALLCONST 1CBA-1EEB 1
+CODE 4-7 1
+CODE 1CBA-1EEB 1
+BIGRAM 75-7F 1
+BIGRAM 1C3-1FF 1
+BIGSFR F80-FFF 1
+COMRAM 75-7F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 1CBA-1EEB 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\FINALULTIM.X.production.o
+8 intcode CODE >18607:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+8 intcode CODE >27:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1A intcode CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1C intcode CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+20 intcode CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1A48 text81 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A48 text81 CODE >37:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A54 text81 CODE >38:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A5C text81 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A64 text81 CODE >52:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A6C text81 CODE >53:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1238 text80 CODE >49:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1238 text80 CODE >52:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+123A text80 CODE >53:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+123E text80 CODE >54:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1242 text80 CODE >56:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+124E text80 CODE >58:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1260 text80 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1278 text80 CODE >60:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1296 text80 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+129A text80 CODE >64:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+144A text78 CODE >188:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+144C text78 CODE >189:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1462 text78 CODE >190:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+147A text78 CODE >191:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+148E text78 CODE >192:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+14A4 text78 CODE >193:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+13E4 text77 CODE >195:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+13E6 text77 CODE >196:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+13FC text77 CODE >197:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1414 text77 CODE >198:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1428 text77 CODE >199:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+143E text77 CODE >200:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1B1E text76 CODE >202:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1B20 text76 CODE >203:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1B26 text76 CODE >207:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1B2C text76 CODE >208:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1B30 text76 CODE >212:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1B36 text76 CODE >213:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+11BC text75 CODE >252:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+11BE text75 CODE >254:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+11C2 text75 CODE >255:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+11C4 text75 CODE >256:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+11DA text75 CODE >257:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+11F2 text75 CODE >258:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1206 text75 CODE >259:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+121C text75 CODE >260:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+121E text75 CODE >261:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+18AE text74 CODE >114:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18B0 text74 CODE >116:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18B8 text74 CODE >117:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18D0 text74 CODE >118:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1C34 text73 CODE >107:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1C36 text73 CODE >109:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1C44 text73 CODE >111:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+19D0 text72 CODE >183:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+19D0 text72 CODE >184:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+19D6 text72 CODE >185:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+19FA text72 CODE >186:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+18E2 text71 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18E2 text71 CODE >98:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18E4 text71 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18E6 text71 CODE >100:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18E8 text71 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18F0 text71 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+18F8 text71 CODE >103:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1900 text71 CODE >104:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1902 text71 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+17CA text70 CODE >234:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17CA text70 CODE >235:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17D2 text70 CODE >236:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17D4 text70 CODE >237:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17D6 text70 CODE >238:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17DC text70 CODE >240:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17E0 text70 CODE >241:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17E8 text70 CODE >242:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17EA text70 CODE >243:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17EC text70 CODE >244:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17F0 text70 CODE >246:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17F2 text70 CODE >247:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+17F4 text70 CODE >248:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1802 text70 CODE >249:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1806 text70 CODE >250:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+B88 text69 CODE >54:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+B8C text69 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+B94 text69 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+B9C text69 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BA0 text69 CODE >64:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BA6 text69 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BAC text69 CODE >66:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BB6 text69 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BBE text69 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BC6 text69 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BCE text69 CODE >72:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BD6 text69 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BDE text69 CODE >74:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BE6 text69 CODE >77:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BEE text69 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BF6 text69 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+BFC text69 CODE >82:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+C06 text69 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+C12 text69 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+C1A text69 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+C24 text69 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+C2E text69 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+C46 text69 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1840 text68 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1840 text68 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1842 text68 CODE >76:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+184A text68 CODE >77:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1852 text68 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1856 text68 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1858 text68 CODE >80:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+185A text68 CODE >81:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+185C text68 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+185E text68 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1860 text68 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1862 text68 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+186A text68 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+186E text68 CODE >89:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1870 text68 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1872 text68 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1874 text68 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1876 text68 CODE >95:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TiTTimer.c
+1A22 text67 CODE >15:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A22 text67 CODE >16:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A28 text67 CODE >17:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A2E text67 CODE >18:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A34 text67 CODE >19:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A3A text67 CODE >20:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A3C text67 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A3E text67 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A40 text67 CODE >24:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A44 text67 CODE >25:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1A46 text67 CODE >27:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1C84 text66 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1C84 text66 CODE >104:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1C88 text66 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1BAE text65 CODE >94:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1BAE text65 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1BBC text65 CODE >98:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1C22 text64 CODE >219:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C22 text64 CODE >220:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C2A text64 CODE >221:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C2E text64 CODE >222:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C32 text64 CODE >223:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+178A text63 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+178A text63 CODE >29:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1790 text63 CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1796 text63 CODE >31:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+179C text63 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17A2 text63 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17AC text63 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17B2 text63 CODE >35:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17B8 text63 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17BE text63 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17C2 text63 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+17C6 text63 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+19FC text62 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+19FC text62 CODE >37:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A08 text62 CODE >38:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A10 text62 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A18 text62 CODE >52:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1A20 text62 CODE >53:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+1C66 text61 CODE >90:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1C68 text61 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1C6C text61 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1C6E text61 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1C70 text61 CODE >94:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1C72 text61 CODE >96:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1C74 text61 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+772 text60 CODE >12:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+772 text60 CODE >13:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+776 text60 CODE >14:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+77A text60 CODE >15:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+77E text60 CODE >18:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+786 text60 CODE >19:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+78E text60 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+798 text60 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+79A text60 CODE >24:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7A4 text60 CODE >25:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7A6 text60 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7B0 text60 CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7B4 text60 CODE >31:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7B8 text60 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7B8 text60 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7BE text60 CODE >35:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7C2 text60 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7E4 text60 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7E6 text60 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7F8 text60 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+7FC text60 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+816 text60 CODE >41:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+818 text60 CODE >42:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+82A text60 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+83E text60 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+85A text60 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+860 text60 CODE >48:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+866 text60 CODE >49:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+868 text60 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+86A text60 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+86E text60 CODE >55:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1B6A text59 CODE >24:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1B6A text59 CODE >25:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1B70 text59 CODE >26:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1B76 text59 CODE >27:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1B7A text59 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1B52 text58 CODE >225:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1B54 text58 CODE >226:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1B58 text58 CODE >227:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1B5C text58 CODE >228:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1B64 text58 CODE >229:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1B68 text58 CODE >231:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1CB6 text57 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CB6 text57 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CB8 text57 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CB2 text56 CODE >57:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CB2 text56 CODE >58:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CB4 text56 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+D1E text55 CODE >127:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D22 text55 CODE >129:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D26 text55 CODE >131:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D30 text55 CODE >132:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D32 text55 CODE >133:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D36 text55 CODE >134:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D44 text55 CODE >135:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D48 text55 CODE >138:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D4E text55 CODE >140:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D56 text55 CODE >141:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D5E text55 CODE >142:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D64 text55 CODE >143:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D6C text55 CODE >144:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D9A text55 CODE >145:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D9C text55 CODE >146:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+DA0 text55 CODE >147:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+DAC text55 CODE >148:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+DB0 text55 CODE >152:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+DBA text55 CODE >155:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+DC4 text55 CODE >160:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+113E text54 CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+113E text54 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1140 text54 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1140 text54 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1142 text54 CODE >35:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1146 text54 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1148 text54 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1156 text54 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1158 text54 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+115E text54 CODE >42:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+115E text54 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1162 text54 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1164 text54 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1174 text54 CODE >46:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+117A text54 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+117C text54 CODE >48:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1184 text54 CODE >49:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1188 text54 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+118E text54 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1192 text54 CODE >52:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1192 text54 CODE >53:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1196 text54 CODE >54:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1198 text54 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+119E text54 CODE >60:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+11A0 text54 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+11A2 text54 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+11AA text54 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+11BA text54 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1B98 text53 CODE >26:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1B9A text53 CODE >27:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1BA0 text53 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1BAC text53 CODE >29:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1AC8 text52 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1ACA text52 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1AD6 text52 CODE >52:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1ADC text52 CODE >53:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1B02 text51 CODE >31:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1B04 text51 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1B10 text51 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1944 text50 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1944 text50 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+194A text50 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+194E text50 CODE >46:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1952 text50 CODE >48:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1956 text50 CODE >49:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+195A text50 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1960 text50 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1914 text49 CODE >31:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1914 text49 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+191A text49 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+191E text49 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1922 text49 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1926 text49 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+192A text49 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1930 text49 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12AC text48 CODE >55:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12AC text48 CODE >57:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12B2 text48 CODE >60:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12C0 text48 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12C6 text48 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12CA text48 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12D0 text48 CODE >67:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12E2 text48 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12EA text48 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12EE text48 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12F2 text48 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12F4 text48 CODE >74:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12F6 text48 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+12FE text48 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+130A text48 CODE >77:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+F9A text47 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+F9A text47 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FA0 text47 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FB0 text47 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FB6 text47 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FB8 text47 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FBE text47 CODE >90:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FCE text47 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FD4 text47 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FD6 text47 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FDA text47 CODE >96:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FEC text47 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FF6 text47 CODE >100:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+FFC text47 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1000 text47 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1012 text47 CODE >106:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1018 text47 CODE >107:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+101A text47 CODE >110:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1808 text46 CODE >218:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+180A text46 CODE >219:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1812 text46 CODE >220:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1814 text46 CODE >221:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1816 text46 CODE >222:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1818 text46 CODE >223:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1820 text46 CODE >228:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DCA text45 CODE >115:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DCE text45 CODE >121:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DD0 text45 CODE >123:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DF2 text45 CODE >124:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DF2 text45 CODE >125:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DF4 text45 CODE >126:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+DFC text45 CODE >127:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E0A text45 CODE >128:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E26 text45 CODE >129:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E28 text45 CODE >131:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E2A text45 CODE >132:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E2C text45 CODE >133:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E46 text45 CODE >135:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E4A text45 CODE >136:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E54 text45 CODE >138:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E58 text45 CODE >139:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+E5C text45 CODE >140:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15C6 text44 CODE >142:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15C8 text44 CODE >152:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15D2 text44 CODE >154:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15D4 text44 CODE >155:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15DA text44 CODE >156:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15E0 text44 CODE >157:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15E2 text44 CODE >158:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15E8 text44 CODE >162:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15EE text44 CODE >163:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15F4 text44 CODE >164:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+15F6 text44 CODE >165:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1600 text44 CODE >166:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1602 text44 CODE >169:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1608 text44 CODE >170:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+1610 text44 CODE >171:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\LcTLCD.c
+9A6 text43 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+9A6 text43 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+9D6 text43 CODE >89:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+9DC text43 CODE >90:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+9E4 text43 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A26 text43 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A2E text43 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A6C text43 CODE >94:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A6E text43 CODE >95:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A70 text43 CODE >96:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A76 text43 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+A78 text43 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+642 text42 CODE >153:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+642 text42 CODE >155:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+654 text42 CODE >157:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+65A text42 CODE >159:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+662 text42 CODE >161:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+670 text42 CODE >162:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+67A text42 CODE >163:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+67C text42 CODE >165:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+680 text42 CODE >166:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+684 text42 CODE >167:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+68A text42 CODE >171:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+690 text42 CODE >173:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+69C text42 CODE >174:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+69E text42 CODE >176:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6AC text42 CODE >177:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6AE text42 CODE >182:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6B6 text42 CODE >183:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6C4 text42 CODE >184:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6CE text42 CODE >185:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6D0 text42 CODE >186:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6D4 text42 CODE >187:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6D8 text42 CODE >188:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6DE text42 CODE >190:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6E4 text42 CODE >191:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6F0 text42 CODE >192:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+6F2 text42 CODE >193:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+700 text42 CODE >194:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+702 text42 CODE >199:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+716 text42 CODE >200:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+718 text42 CODE >201:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+71C text42 CODE >204:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+71E text42 CODE >207:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+720 text42 CODE >208:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+724 text42 CODE >210:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+726 text42 CODE >212:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+728 text42 CODE >214:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1DC text41 CODE >103:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1DC text41 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1E2 text41 CODE >106:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1E8 text41 CODE >107:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1F0 text41 CODE >108:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+204 text41 CODE >109:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+20C text41 CODE >110:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+214 text41 CODE >111:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+21A text41 CODE >112:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+222 text41 CODE >113:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+22A text41 CODE >114:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+230 text41 CODE >115:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+238 text41 CODE >116:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+240 text41 CODE >117:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+246 text41 CODE >118:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+24E text41 CODE >119:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+256 text41 CODE >120:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+276 text41 CODE >121:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+278 text41 CODE >122:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+280 text41 CODE >123:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+286 text41 CODE >125:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2A4 text41 CODE >126:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2AC text41 CODE >127:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2B0 text41 CODE >128:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2DC text41 CODE >129:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2E6 text41 CODE >130:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2EA text41 CODE >131:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2F0 text41 CODE >132:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2FA text41 CODE >133:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+2FE text41 CODE >134:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+304 text41 CODE >135:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+30E text41 CODE >136:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+312 text41 CODE >137:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+318 text41 CODE >138:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+322 text41 CODE >139:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+326 text41 CODE >140:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+360 text41 CODE >141:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+362 text41 CODE >142:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+368 text41 CODE >143:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+36E text41 CODE >146:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+370 text41 CODE >148:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+37A text40 CODE >234:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+37A text40 CODE >235:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+37C text40 CODE >237:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+384 text40 CODE >242:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+394 text40 CODE >245:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3A4 text40 CODE >248:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3B4 text40 CODE >251:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3C4 text40 CODE >254:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3D8 text40 CODE >256:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3DC text40 CODE >256:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3F2 text40 CODE >256:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+3F8 text40 CODE >259:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+404 text40 CODE >262:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+408 text40 CODE >263:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+412 text40 CODE >265:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+418 text40 CODE >266:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+42A text40 CODE >268:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+450 text40 CODE >273:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+464 text40 CODE >276:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+476 text40 CODE >279:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+486 text40 CODE >280:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+498 text40 CODE >281:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+49C text40 CODE >282:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+4A2 text40 CODE >283:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+4A6 text40 CODE >287:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+4AC text40 CODE >287:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+4CE text40 CODE >288:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1BD8 text39 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1BDA text39 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1BE0 text39 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1BE4 text39 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1BE8 text39 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1C76 text38 CODE >164:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C78 text38 CODE >165:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C7E text38 CODE >166:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+166C text37 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+166C text37 CODE >68:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+166E text37 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+166E text37 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1670 text37 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1678 text37 CODE >72:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+167A text37 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1688 text37 CODE >74:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+168A text37 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1690 text37 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1690 text37 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1694 text37 CODE >80:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1696 text37 CODE >81:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+169C text37 CODE >82:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+16A2 text37 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+16A6 text37 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+16AE text37 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+16BA text37 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TADC.c
+1AAA text36 CODE >77:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AAC text36 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AB0 text36 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AB4 text36 CODE >81:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AB6 text36 CODE >82:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AB8 text36 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1ABA text36 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1ABC text36 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AC0 text36 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AC4 text36 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1AC6 text36 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+89C text35 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+89C text35 CODE >102:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+89E text35 CODE >104:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8A4 text35 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8AA text35 CODE >108:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8AA text35 CODE >109:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8AC text35 CODE >110:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8B0 text35 CODE >111:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8B6 text35 CODE >115:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8C0 text35 CODE >116:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8C2 text35 CODE >117:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8C4 text35 CODE >118:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8C8 text35 CODE >119:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8CA text35 CODE >120:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8CA text35 CODE >121:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8CE text35 CODE >122:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8D4 text35 CODE >126:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8DE text35 CODE >127:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8E0 text35 CODE >128:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8E2 text35 CODE >129:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8E6 text35 CODE >130:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8E8 text35 CODE >131:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8E8 text35 CODE >132:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8EC text35 CODE >133:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8F2 text35 CODE >137:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+8F8 text35 CODE >138:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+904 text35 CODE >139:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+906 text35 CODE >140:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+908 text35 CODE >141:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+90A text35 CODE >142:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+90E text35 CODE >145:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+914 text35 CODE >149:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+91A text35 CODE >150:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+928 text35 CODE >157:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+92E text35 CODE >160:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+92E text35 CODE >161:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+930 text35 CODE >162:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+936 text35 CODE >163:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+93A text35 CODE >164:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+93C text35 CODE >165:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+940 text35 CODE >167:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+942 text35 CODE >168:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+944 text35 CODE >169:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+94C text35 CODE >169:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+974 text35 CODE >170:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CA8 text34 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CA8 text34 CODE >74:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CAC text34 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1BC4 text33 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1BC6 text33 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1BCA text33 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1BCC text33 CODE >64:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1BD2 text33 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1BD6 text33 CODE >66:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C8E text32 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1C90 text32 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1C94 text32 CODE >80:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1C10 text31 CODE >170:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C12 text31 CODE >171:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C16 text31 CODE >172:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C1C text31 CODE >173:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1AE6 text30 CODE >35:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1AE6 text30 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1AEA text30 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1AF0 text30 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1AF6 text30 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1AFC text30 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1B00 text30 CODE >41:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1CAE text29 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CAE text29 CODE >66:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CB0 text29 CODE >67:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CA2 text28 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CA2 text28 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+1CA6 text28 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TRom.c
+AAC text27 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AAC text27 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AB0 text27 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AB4 text27 CODE >90:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+ABE text27 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AC2 text27 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AC6 text27 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+ACE text27 CODE >94:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AD2 text27 CODE >95:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+ADE text27 CODE >96:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AE2 text27 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AEA text27 CODE >98:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AF0 text27 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AF6 text27 CODE >100:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AFC text27 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+AFE text27 CODE >102:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B00 text27 CODE >103:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B04 text27 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B0A text27 CODE >106:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B28 text27 CODE >107:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B2A text27 CODE >109:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B32 text27 CODE >110:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B38 text27 CODE >111:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B46 text27 CODE >112:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B5A text27 CODE >113:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B5E text27 CODE >114:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B66 text27 CODE >115:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B6C text27 CODE >116:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B70 text27 CODE >117:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B70 text27 CODE >119:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B74 text27 CODE >120:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+B78 text27 CODE >121:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+10C0 text26 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10C0 text26 CODE >48:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10C6 text26 CODE >52:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10D6 text26 CODE >53:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10DC text26 CODE >54:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10DE text26 CODE >55:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10E4 text26 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10F4 text26 CODE >60:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10FA text26 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+10FC text26 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1100 text26 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1112 text26 CODE >68:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+111E text26 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1124 text26 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1126 text26 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+50A text25 CODE >128:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+50A text25 CODE >132:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+50C text25 CODE >134:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+512 text25 CODE >135:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+518 text25 CODE >138:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+518 text25 CODE >139:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+51A text25 CODE >140:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+51C text25 CODE >141:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+51C text25 CODE >142:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+520 text25 CODE >143:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+524 text25 CODE >144:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+528 text25 CODE >147:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+528 text25 CODE >148:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+52C text25 CODE >149:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+530 text25 CODE >150:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+534 text25 CODE >153:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+534 text25 CODE >154:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+538 text25 CODE >155:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+53C text25 CODE >156:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+540 text25 CODE >159:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+540 text25 CODE >160:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+544 text25 CODE >161:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+548 text25 CODE >162:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+54E text25 CODE >165:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+56A text25 CODE >167:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+570 text25 CODE >168:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+576 text25 CODE >169:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+57A text25 CODE >170:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+57E text25 CODE >171:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+58A text25 CODE >173:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+58E text25 CODE >176:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+594 text25 CODE >177:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+596 text25 CODE >178:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+598 text25 CODE >179:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+59C text25 CODE >184:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5A2 text25 CODE >185:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5A6 text25 CODE >186:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5AC text25 CODE >187:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5B6 text25 CODE >188:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5CE text25 CODE >191:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5CE text25 CODE >192:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5D0 text25 CODE >193:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5D4 text25 CODE >197:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5DA text25 CODE >198:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5E0 text25 CODE >199:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5E4 text25 CODE >200:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+5F6 text25 CODE >209:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+600 text25 CODE >209:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+618 text25 CODE >210:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+19A2 text24 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19A2 text24 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19A8 text24 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19AC text24 CODE >35:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19B0 text24 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19B4 text24 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19BA text24 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19BE text24 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19C4 text24 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19C8 text24 CODE >41:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19CA text24 CODE >42:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+19CE text24 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1702 text23 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1704 text23 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1708 text23 CODE >86:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1710 text23 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+171A text23 CODE >89:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1724 text23 CODE >90:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+172E text23 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1732 text23 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1736 text23 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1738 text23 CODE >95:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+173C text23 CODE >96:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1740 text23 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1744 text23 CODE >100:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1744 text23 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1746 text23 CODE >102:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1B82 text22 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1B82 text22 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1B88 text22 CODE >23:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1B8E text22 CODE >24:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1B90 text22 CODE >25:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1B94 text22 CODE >26:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1B96 text22 CODE >27:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1878 text21 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+187A text21 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+187E text21 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1884 text21 CODE >72:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+188C text21 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1892 text21 CODE >74:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+189C text21 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+18A4 text21 CODE >76:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C9C text20 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1C9C text20 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1CA0 text20 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F02 text19 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F04 text19 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F06 text19 CODE >54:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F0A text19 CODE >55:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F0E text19 CODE >56:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F14 text19 CODE >57:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F1A text19 CODE >58:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F1C text19 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F20 text19 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F24 text19 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F26 text19 CODE >64:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F2C text19 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F30 text19 CODE >66:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F3E text19 CODE >67:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F4C text19 CODE >68:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F4E text19 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F52 text19 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F56 text19 CODE >72:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F5A text19 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+F74 text19 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1C96 text18 CODE >57:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C96 text18 CODE >58:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C9A text18 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1A8C text17 CODE >15:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1A8C text17 CODE >16:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1A96 text17 CODE >17:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1A9A text17 CODE >20:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1AA0 text17 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1AA4 text17 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1AA8 text17 CODE >25:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+16BC text16 CODE >15:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16BC text16 CODE >17:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16BE text16 CODE >18:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16C0 text16 CODE >19:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16C4 text16 CODE >20:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16C8 text16 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16CA text16 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16CE text16 CODE >23:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16D2 text16 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16E4 text16 CODE >29:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+16E8 text16 CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1974 text15 CODE >16:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1974 text15 CODE >17:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+197A text15 CODE >18:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1980 text15 CODE >19:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1986 text15 CODE >20:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+198C text15 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1992 text15 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1998 text15 CODE >23:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+199A text15 CODE >24:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+199C text15 CODE >25:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+19A0 text15 CODE >26:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+137E text14 CODE >62:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+137E text14 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1380 text14 CODE >65:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+138A text14 CODE >66:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+138E text14 CODE >67:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1392 text14 CODE >68:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1398 text14 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+139C text14 CODE >71:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+139C text14 CODE >72:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+139E text14 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13A4 text14 CODE >76:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13AA text14 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13B0 text14 CODE >82:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13B6 text14 CODE >83:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13BA text14 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13BE text14 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13C2 text14 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13CA text14 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+13E2 text14 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1748 text13 CODE >14:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1748 text13 CODE >15:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+174E text13 CODE >16:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1754 text13 CODE >17:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1758 text13 CODE >18:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1764 text13 CODE >19:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+176C text13 CODE >20:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1774 text13 CODE >21:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+177C text13 CODE >22:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1784 text13 CODE >23:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1788 text13 CODE >24:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\THora.c
+1B3A text12 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1B3C text12 CODE >29:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1B42 text12 CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1B48 text12 CODE >31:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1B4C text12 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1B50 text12 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSound.c
+1BFE text11 CODE >80:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C00 text11 CODE >81:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C0A text11 CODE >82:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1C56 text10 CODE >27:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C58 text10 CODE >28:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C64 text10 CODE >29:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1BEC text9 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1BEE text9 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1BF2 text9 CODE >46:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSIO.c
+1A6E text8 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1A6E text8 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1A7A text8 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1A82 text8 CODE >46:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1A8A text8 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TMenu.c
+1032 text7 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1034 text7 CODE >92:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+103C text7 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1044 text7 CODE >99:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1048 text7 CODE >100:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+104C text7 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1052 text7 CODE >102:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1058 text7 CODE >103:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+105A text7 CODE >106:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1062 text7 CODE >108:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1072 text7 CODE >109:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+107C text7 CODE >110:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1084 text7 CODE >111:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1088 text7 CODE >112:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+108C text7 CODE >113:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1090 text7 CODE >114:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1098 text7 CODE >115:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+109E text7 CODE >119:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+10AA text7 CODE >120:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+10B4 text7 CODE >121:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+1C46 text6 CODE >29:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C48 text6 CODE >30:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C4C text6 CODE >31:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C4E text6 CODE >32:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C50 text6 CODE >33:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C52 text6 CODE >35:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C54 text6 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1570 text5 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1572 text5 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1582 text5 CODE >41:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1588 text5 CODE >42:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1598 text5 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+15A4 text5 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+15B0 text5 CODE >46:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+15B2 text5 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+15C0 text5 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+15C2 text5 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+15C4 text5 CODE >58:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+C54 text4 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C56 text4 CODE >37:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C5E text4 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C66 text4 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C74 text4 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C88 text4 CODE >41:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C94 text4 CODE >42:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+C9E text4 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CAC text4 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CAE text4 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CB8 text4 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CBC text4 CODE >49:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CD2 text4 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CE0 text4 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CEC text4 CODE >52:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+CFA text4 CODE >53:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D08 text4 CODE >55:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D0E text4 CODE >56:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+D10 text4 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TCentral.c
+38 text3 CODE >60:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+3C text3 CODE >61:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+42 text3 CODE >63:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+4C text3 CODE >64:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+4E text3 CODE >66:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+60 text3 CODE >67:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+62 text3 CODE >69:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+74 text3 CODE >70:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+76 text3 CODE >72:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+8E text3 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+90 text3 CODE >75:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+A8 text3 CODE >76:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+AA text3 CODE >78:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+C2 text3 CODE >79:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+C4 text3 CODE >81:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+DC text3 CODE >82:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+DE text3 CODE >84:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+F6 text3 CODE >85:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+F8 text3 CODE >87:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+110 text3 CODE >88:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+112 text3 CODE >90:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+12A text3 CODE >91:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+12C text3 CODE >93:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+144 text3 CODE >94:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+146 text3 CODE >95:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+17E text3 CODE >97:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+182 text3 CODE >98:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+188 text3 CODE >101:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+190 text3 CODE >102:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+192 text3 CODE >103:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+196 text3 CODE >104:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1A4 text3 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1AC text3 CODE >106:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1BA text3 CODE >107:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C0 text3 CODE >108:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C4 text3 CODE >110:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1C4 text3 CODE >112:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TSms.c
+1316 text2 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1316 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1334 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+133C text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1342 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1348 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+134E text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1354 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+135A text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1360 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1366 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+136C text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1372 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1378 text2 CODE >73:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E68 text1 CODE >105:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E68 text1 CODE >106:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E6A text1 CODE >108:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E7C text1 CODE >109:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E7E text1 CODE >111:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E94 text1 CODE >112:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+E96 text1 CODE >114:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+EAC text1 CODE >115:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+EAE text1 CODE >117:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+EC0 text1 CODE >118:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+EC4 text1 CODE >119:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+ECA text1 CODE >123:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+ECE text1 CODE >124:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+ED6 text1 CODE >126:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+ED8 text1 CODE >128:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+EE2 text1 CODE >128:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+EFA text1 CODE >129:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\TTeclat.c
+1514 text0 CODE >34:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1514 text0 CODE >36:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1518 text0 CODE >38:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+151C text0 CODE >39:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1526 text0 CODE >40:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+152A text0 CODE >41:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+152E text0 CODE >42:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1532 text0 CODE >43:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1536 text0 CODE >44:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+153A text0 CODE >45:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+153E text0 CODE >46:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1542 text0 CODE >47:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1546 text0 CODE >50:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+154A text0 CODE >51:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+154E text0 CODE >52:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1552 text0 CODE >53:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1556 text0 CODE >54:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+155A text0 CODE >55:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+155E text0 CODE >56:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1562 text0 CODE >57:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+1566 text0 CODE >58:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+156A text0 CODE >59:C:\Users\guimo\OneDrive\Escritorio\P2-A\FINALULTIM.X\main.c
+161A cinit CODE >4295:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+161A cinit CODE >4297:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+161A cinit CODE >4300:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+161A cinit CODE >4550:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+161C cinit CODE >4551:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+161E cinit CODE >4552:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1620 cinit CODE >4553:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1622 cinit CODE >4554:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1624 cinit CODE >4555:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1626 cinit CODE >4556:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+162A cinit CODE >4557:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+162E cinit CODE >4558:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+162E cinit CODE >4559:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1630 cinit CODE >4560:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1634 cinit CODE >4561:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1636 cinit CODE >4562:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1638 cinit CODE >4563:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+163A cinit CODE >4567:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+163E cinit CODE >4568:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1640 cinit CODE >4569:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1640 cinit CODE >4570:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1642 cinit CODE >4571:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1644 cinit CODE >4572:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1646 cinit CODE >4575:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+164A cinit CODE >4576:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+164C cinit CODE >4577:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+164C cinit CODE >4578:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+164E cinit CODE >4579:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1650 cinit CODE >4580:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1652 cinit CODE >4583:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1656 cinit CODE >4584:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1658 cinit CODE >4585:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1658 cinit CODE >4586:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+165A cinit CODE >4587:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+165C cinit CODE >4588:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+165E cinit CODE >4594:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+165E cinit CODE >4596:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1660 cinit CODE >4597:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1662 cinit CODE >4599:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1664 cinit CODE >4600:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1666 cinit CODE >4601:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+1668 cinit CODE >4602:C:\Users\guimo\AppData\Local\Temp\xcAs1bc.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_i 27 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_k 30 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_n 43 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_p 41 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_s 26 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_t 6 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+__Lmediumconst 1EEC 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__Hspace_0 2000 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Hspace_1 1C3 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_SHOW_CURR_TIME 1F0F 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_timer@TSound$F1621 1D 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_finalMarq 34 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\FINALULTIM.X.production.o
+_enterMode 137E 0 CODE 0 text14 dist/default/production\FINALULTIM.X.production.o
+motorHora@state 3E 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\FINALULTIM.X.production.o
+__mediumconst 1EEC 0 MEDIUMCONST 0 mediumconst C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\FINALULTIM.X.production.o
+motorRX@info 23 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_checkFila 19A2 0 CODE 0 text24 dist/default/production\FINALULTIM.X.production.o
+__end_of_showLCD_Marq 72E 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+_CantaPartBaixa 13E4 0 CODE 0 text77 dist/default/production\FINALULTIM.X.production.o
+_timerMicro 4A 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+PL2 72E 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+PL4 746 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+PL6 750 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+PL8 75A 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+_ok 25 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_pressSound 1B52 0 CODE 0 text12 dist/default/production\FINALULTIM.X.production.o
+__end_of_LcInit C48 0 CODE 0 text69 dist/default/production\FINALULTIM.X.production.o
+_MENU2_PLAY 1FB0 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_MENU2_TIME 1F82 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_MENU2_MODIFY 1FB0 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+PL100 EFC 0 CODE 0 text1 dist/default/production\FINALULTIM.X.production.o
+PL102 1D4 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+PL104 502 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\FINALULTIM.X.production.o
+_Rows 4F 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+_addr 31 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_fila 12 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_key0 84 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+_key1 80 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+_key2 1F0B 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key3 1F07 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key4 1F03 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key5 1EFF 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key6 1EFB 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key7 1EF2 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key8 1EF7 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_key9 1EED 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_main 1514 0 CODE 0 text0 dist/default/production\FINALULTIM.X.production.o
+_mode 45 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_move 49 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_nota 1A 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_send 2A 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_time 50 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+btemp 74 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+start 34 0 CODE 0 init C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+modifyHora@num 1B7 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_TiGetTics 18D2 0 CODE 0 text74 dist/default/production\FINALULTIM.X.production.o
+?___wmul 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_playMelody 1B02 0 CODE 0 text30 dist/default/production\FINALULTIM.X.production.o
+LcInit@i 1B1 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__end_of_cleanMarquesina 1C34 0 CODE 0 text64 dist/default/production\FINALULTIM.X.production.o
+setMode@m 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+motorTX@state 22 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\FINALULTIM.X.production.o
+updateHora@hora 68 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+Espera@ms 6E 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hpowerup 34 0 CODE 0 powerup dist/default/production\FINALULTIM.X.production.o
+_keyDetected 13 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_T0CONbits FD5 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+ttemp5 75 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+ttemp6 78 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+ttemp7 7C 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+__end_of_TiInit 1878 0 CODE 0 text68 dist/default/production\FINALULTIM.X.production.o
+_motorMicro 166C 0 CODE 0 text37 dist/default/production\FINALULTIM.X.production.o
+__end_of_SHOW_CURR_TIME 1F26 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_motorSound 10C0 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+__accesstop 80 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+intlevel0 0 0 CODE 0 text C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+intlevel1 0 0 CODE 0 text C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+intlevel2 0 0 CODE 0 text C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+intlevel3 0 0 CODE 0 text C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+__end_of_cleanPortName 18A8 0 CODE 0 text21 dist/default/production\FINALULTIM.X.production.o
+_TiGetTics 18AE 0 CODE 0 text74 dist/default/production\FINALULTIM.X.production.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_initHora 1748 0 CODE 0 text13 dist/default/production\FINALULTIM.X.production.o
+_initMenu 178A 0 CODE 0 text63 dist/default/production\FINALULTIM.X.production.o
+manageKeySMS@key 1BA 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_OSCCONbits FD3 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\FINALULTIM.X.production.o
+wtemp8 75 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+_writeEEPROM 1AAA 0 CODE 0 text36 dist/default/production\FINALULTIM.X.production.o
+Espera@Timer 6C 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_CantaPartBaixa 1440 0 CODE 0 text77 dist/default/production\FINALULTIM.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\FINALULTIM.X.production.o
+writeName@towerName 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+TiGetTics@Handle 69 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\FINALULTIM.X.production.o
+__end_of_initHora 178A 0 CODE 0 text13 dist/default/production\FINALULTIM.X.production.o
+__end_of_initMenu 17CA 0 CODE 0 text63 dist/default/production\FINALULTIM.X.production.o
+__end_of_MENU2_PLAY 1FC7 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_MENU2_TIME 1F99 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+updateHora@mod 69 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+updateHora@pos 6A 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_newHora 1B02 0 CODE 0 text51 dist/default/production\FINALULTIM.X.production.o
+___wmul@multiplicand 67 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+manageKey@key 1B7 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_ADCON1 FC1 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_ADCON2 FC0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_ADRESH FC4 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+i2___wmul@multiplier 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+changeMode@u 73 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+_RSI_Timer0 1238 0 CODE 0 text80 dist/default/production\FINALULTIM.X.production.o
+__end_of_sendSound 1C84 0 CODE 0 text38 dist/default/production\FINALULTIM.X.production.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+manageKey@note 1B6 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_ColumnAct 4C 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_EECON1bits FA6 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_cleanMarquesina 1C22 0 CODE 0 text64 dist/default/production\FINALULTIM.X.production.o
+_emptyRec 1C96 0 CODE 0 text18 dist/default/production\FINALULTIM.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\FINALULTIM.X.production.o
+_selectSound 1BEC 0 CODE 0 text9 dist/default/production\FINALULTIM.X.production.o
+_CantaIR 1B1E 0 CODE 0 text76 dist/default/production\FINALULTIM.X.production.o
+__Hpa_nodes0 0 0 ABS 0 pa_nodes0 dist/default/production\FINALULTIM.X.production.o
+__end_of___wmul 1A22 0 CODE 0 text62 dist/default/production\FINALULTIM.X.production.o
+motorSound@state 17 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_EECON2 FA7 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_EEDATA FA8 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\FINALULTIM.X.production.o
+__end_of_EscriuPrimeraOrdre 1220 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+_EMPTY2 9F 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+_motorADC 113E 0 CODE 0 text54 dist/default/production\FINALULTIM.X.production.o
+_motorROM 89C 0 CODE 0 text35 dist/default/production\FINALULTIM.X.production.o
+_timer@TTeclat$F1784 15 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_BAUDCONbits FB8 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__end_of_emptyRec 1C9C 0 CODE 0 text18 dist/default/production\FINALULTIM.X.production.o
+_Espera 19D0 0 CODE 0 text72 dist/default/production\FINALULTIM.X.production.o
+__Hmediumconst 2000 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__Hintcodelo 34 0 CODE 0 intcodelo dist/default/production\FINALULTIM.X.production.o
+_whichKey 1316 0 CODE 0 text2 dist/default/production\FINALULTIM.X.production.o
+newHora@hora 6B 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_actHora 1B98 0 CODE 0 text53 dist/default/production\FINALULTIM.X.production.o
+_sendSound 1C76 0 CODE 0 text38 dist/default/production\FINALULTIM.X.production.o
+_counter@TiTTimer$F1024 B 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_motorADC 11BC 0 CODE 0 text54 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorROM 976 0 CODE 0 text35 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorMicro 16BC 0 CODE 0 text37 dist/default/production\FINALULTIM.X.production.o
+_writting 2F 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_motorSound 1128 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+_manageKeySMS 38 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+printLetter@finalKey 72 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_OSCTUNEbits F9B 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_manageLetter 1570 0 CODE 0 text5 dist/default/production\FINALULTIM.X.production.o
+__end_of_initCentral 1AAA 0 CODE 0 text17 dist/default/production\FINALULTIM.X.production.o
+_motorMelody F9A 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+__end_of_whichKey 137E 0 CODE 0 text2 dist/default/production\FINALULTIM.X.production.o
+__Lpa_nodes0 0 0 ABS 0 pa_nodes0 dist/default/production\FINALULTIM.X.production.o
+_WaitForBusy 17CA 0 CODE 0 text70 dist/default/production\FINALULTIM.X.production.o
+writeEEPROM@addr 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+writeEEPROM@data 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_LcInit B88 0 CODE 0 text69 dist/default/production\FINALULTIM.X.production.o
+EscriuPrimeraOrdre@ordre 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lintcodelo 34 0 CODE 0 intcodelo dist/default/production\FINALULTIM.X.production.o
+_EscriuPrimeraOrdre 11BC 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+start_initialization 161A 0 CODE 0 cinit dist/default/production\FINALULTIM.X.production.o
+__end_of_activaRecording 1CA2 0 CODE 0 text20 dist/default/production\FINALULTIM.X.production.o
+saveLetter@countChar 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\FINALULTIM.X.production.o
+i2___wmul 1A48 0 CODE 0 text81 dist/default/production\FINALULTIM.X.production.o
+__end_of_setMode 1C96 0 CODE 0 text32 dist/default/production\FINALULTIM.X.production.o
+_startTime 3F 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_manageRepeat 1C46 0 CODE 0 text6 dist/default/production\FINALULTIM.X.production.o
+_TRISAbits F92 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_TRISBbits F93 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_TRISCbits F94 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__end_of_RSI_Timer0 129C 0 CODE 0 text80 dist/default/production\FINALULTIM.X.production.o
+LcGotoXY@Row 6D 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_manageSegons 1914 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+_motorTeclat E68 0 CODE 0 text1 dist/default/production\FINALULTIM.X.production.o
+checkKey@D0 6A 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+checkKey@D1 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+checkKey@D2 67 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_Columns 4E 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_ofPL2 746 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL4 750 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL6 75A 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL8 768 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+__end_of_showLCD A7A 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+_saveLetter 1C56 0 CODE 0 text10 dist/default/production\FINALULTIM.X.production.o
+_NOTHING 1F54 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_ofi2___wmul 1A6E 0 CODE 0 text81 dist/default/production\FINALULTIM.X.production.o
+_enviaMostra 1BD8 0 CODE 0 text39 dist/default/production\FINALULTIM.X.production.o
+_RowAct 4D 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_SPBRGH FB0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__pcstackBANK1 1B0 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_TiInit 1840 0 CODE 0 text68 dist/default/production\FINALULTIM.X.production.o
+__end_of_TiResetTics 1C46 0 CODE 0 text73 dist/default/production\FINALULTIM.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+TiGetTics@actual 6A 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_initADC 1A48 0 CODE 0 text67 dist/default/production\FINALULTIM.X.production.o
+__end_of_initROM 870 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+__end_of_initSIO 16EA 0 CODE 0 text16 dist/default/production\FINALULTIM.X.production.o
+__end_of_initSMS 1B98 0 CODE 0 text22 dist/default/production\FINALULTIM.X.production.o
+_readEEPROM 1C66 0 CODE 0 text61 dist/default/production\FINALULTIM.X.production.o
+motorROM@stateROM 2B 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\FINALULTIM.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\FINALULTIM.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\FINALULTIM.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\FINALULTIM.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\FINALULTIM.X.production.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/production\FINALULTIM.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\FINALULTIM.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\FINALULTIM.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\FINALULTIM.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\FINALULTIM.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\FINALULTIM.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\FINALULTIM.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\FINALULTIM.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\FINALULTIM.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\FINALULTIM.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\FINALULTIM.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\FINALULTIM.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\FINALULTIM.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\FINALULTIM.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\FINALULTIM.X.production.o
+_countChar 20 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_countTime 1 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\FINALULTIM.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\FINALULTIM.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\FINALULTIM.X.production.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+enviaMostra@sound 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_manageKeySMS 1CC 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\FINALULTIM.X.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/production\FINALULTIM.X.production.o
+pressSound@tono 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_activaRecording 1C9C 0 CODE 0 text20 dist/default/production\FINALULTIM.X.production.o
+_manageMinutes 1944 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+__end_of_manageLetter 15C6 0 CODE 0 text5 dist/default/production\FINALULTIM.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\FINALULTIM.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\FINALULTIM.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\FINALULTIM.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\FINALULTIM.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\FINALULTIM.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production\FINALULTIM.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\FINALULTIM.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\FINALULTIM.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\FINALULTIM.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\FINALULTIM.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\FINALULTIM.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\FINALULTIM.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\FINALULTIM.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\FINALULTIM.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\FINALULTIM.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\FINALULTIM.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\FINALULTIM.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\FINALULTIM.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\FINALULTIM.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\FINALULTIM.X.production.o
+changePos@num 1B7 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+changePos@pos 1B9 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\FINALULTIM.X.production.o
+i2___wmul@product 5E 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+LcInit@rows 1B0 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\FINALULTIM.X.production.o
+_PORTCbits F82 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_PORTDbits F83 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_modifyHora C54 0 CODE 0 text4 dist/default/production\FINALULTIM.X.production.o
+_INTCONbits FF2 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\FINALULTIM.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\FINALULTIM.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\FINALULTIM.X.production.o
+__Hinit 38 0 CODE 0 init dist/default/production\FINALULTIM.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\FINALULTIM.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\FINALULTIM.X.production.o
+__Htemp 75 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\FINALULTIM.X.production.o
+readEEPROM@addr 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\FINALULTIM.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\FINALULTIM.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\FINALULTIM.X.production.o
+__Linit 34 0 CODE 0 init dist/default/production\FINALULTIM.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\FINALULTIM.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\FINALULTIM.X.production.o
+__Ltemp 74 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\FINALULTIM.X.production.o
+LcGotoXY@Column 1B4 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+___wmul 19FC 0 CODE 0 text62 dist/default/production\FINALULTIM.X.production.o
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+int$flags 74 0 COMRAM 1 temp dist/default/production\FINALULTIM.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\FINALULTIM.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\FINALULTIM.X.production.o
+PL10 A7A 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+PL12 976 0 CODE 0 text35 dist/default/production\FINALULTIM.X.production.o
+PL14 A8A 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+PL16 A96 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+PL18 AA2 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+PL20 C48 0 CODE 0 text69 dist/default/production\FINALULTIM.X.production.o
+PL22 4D0 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+PL24 1904 0 CODE 0 text71 dist/default/production\FINALULTIM.X.production.o
+PL26 16EA 0 CODE 0 text16 dist/default/production\FINALULTIM.X.production.o
+PL28 61A 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+PL30 D12 0 CODE 0 text4 dist/default/production\FINALULTIM.X.production.o
+PL32 870 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+PL34 129C 0 CODE 0 text80 dist/default/production\FINALULTIM.X.production.o
+PL36 1934 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+PL38 4F2 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+PL40 18D2 0 CODE 0 text74 dist/default/production\FINALULTIM.X.production.o
+PL42 1828 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+PL44 372 0 CODE 0 text41 dist/default/production\FINALULTIM.X.production.o
+PL46 1220 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+PL48 1CC 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+PL50 1964 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+PL52 193C 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+PL54 F78 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+PL56 768 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+PL58 B7C 0 CODE 0 text27 dist/default/production\FINALULTIM.X.production.o
+PL60 1128 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+PL62 F82 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+PL64 62C 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+PL66 101C 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+PL68 F8E 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+PL70 130C 0 CODE 0 text48 dist/default/production\FINALULTIM.X.production.o
+PL72 E5E 0 CODE 0 text45 dist/default/production\FINALULTIM.X.production.o
+PL74 196C 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+PL76 638 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+PL78 880 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+PL80 88A 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+PL82 1440 0 CODE 0 text77 dist/default/production\FINALULTIM.X.production.o
+PL84 1836 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+PL86 122E 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+PL88 1134 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+PL90 1028 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+PL92 14A6 0 CODE 0 text78 dist/default/production\FINALULTIM.X.production.o
+PL94 1BF8 0 CODE 0 text9 dist/default/production\FINALULTIM.X.production.o
+PL96 18A8 0 CODE 0 text21 dist/default/production\FINALULTIM.X.production.o
+PL98 894 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+__S0 2000 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__S1 1C3 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_pit 2D 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_rep 1E 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_saveLetter 1C66 0 CODE 0 text10 dist/default/production\FINALULTIM.X.production.o
+_finalMarq2 33 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_TiGetTimer 18E2 0 CODE 0 text71 dist/default/production\FINALULTIM.X.production.o
+__end_of_manageRepeat 1C56 0 CODE 0 text6 dist/default/production\FINALULTIM.X.production.o
+_action 29 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+initROM@i_1234 72 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+LcGotoXY@Fisics 1B2 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_RSI_High 8 0 CODE 0 intcode dist/default/production\FINALULTIM.X.production.o
+__end_of_manageSegons 1934 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+__end_of_RSI_High 34 0 CODE 0 intcode dist/default/production\FINALULTIM.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\FINALULTIM.X.production.o
+_SHOW_RECORDING 1F3D 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\FINALULTIM.X.production.o
+__end_of_readEEPROM 1C76 0 CODE 0 text61 dist/default/production\FINALULTIM.X.production.o
+_flying 24 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_ofPL10 A8A 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL12 9A6 0 CODE 0 text35 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL14 A96 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL16 AA2 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL18 AAC 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL20 C54 0 CODE 0 text69 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL22 4F2 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL24 1914 0 CODE 0 text71 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL26 1702 0 CODE 0 text16 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL28 62C 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL30 D1E 0 CODE 0 text4 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL32 880 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL34 12AC 0 CODE 0 text80 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL36 193C 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL38 502 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL40 18E2 0 CODE 0 text74 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL42 1836 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL44 37A 0 CODE 0 text41 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL46 122E 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL48 1D4 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL50 196C 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL52 1944 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL54 F82 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL56 772 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL58 B88 0 CODE 0 text27 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL60 1134 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL62 F8E 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL64 638 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL66 1028 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL68 F9A 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL70 1316 0 CODE 0 text48 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL72 E68 0 CODE 0 text45 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL74 1974 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL76 642 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL78 88A 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL80 894 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL82 144A 0 CODE 0 text77 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL84 1840 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL86 1238 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL88 113E 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL90 1032 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL92 14B0 0 CODE 0 text78 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL94 1BFE 0 CODE 0 text9 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL96 18AE 0 CODE 0 text21 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL98 89C 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+manageRepeat@max 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+manageRepeat@rep 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_writeEEPROM 1AC8 0 CODE 0 text36 dist/default/production\FINALULTIM.X.production.o
+_printLetter 1BFE 0 CODE 0 text11 dist/default/production\FINALULTIM.X.production.o
+_h_Tics D 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\FINALULTIM.X.production.o
+_extraPos 38 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hramtop 200 0 RAM 0 ramtop dist/default/production\FINALULTIM.X.production.o
+_enviaNom 28 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\FINALULTIM.X.production.o
+__end_of_LcClear 1BC4 0 CODE 0 text65 dist/default/production\FINALULTIM.X.production.o
+_index1 2C 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_MENU2_START 1FC7 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__pdataBANK0 80 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+__activetblptr 2 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\FINALULTIM.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\FINALULTIM.X.production.o
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\FINALULTIM.X.production.o
+changeMenu@mode 72 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\FINALULTIM.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\FINALULTIM.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\FINALULTIM.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\FINALULTIM.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\FINALULTIM.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\FINALULTIM.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\FINALULTIM.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\FINALULTIM.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\FINALULTIM.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\FINALULTIM.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\FINALULTIM.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\FINALULTIM.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\FINALULTIM.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\FINALULTIM.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\FINALULTIM.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\FINALULTIM.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\FINALULTIM.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\FINALULTIM.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\FINALULTIM.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\FINALULTIM.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\FINALULTIM.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\FINALULTIM.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\FINALULTIM.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\FINALULTIM.X.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\FINALULTIM.X.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production\FINALULTIM.X.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production\FINALULTIM.X.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production\FINALULTIM.X.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production\FINALULTIM.X.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production\FINALULTIM.X.production.o
+__Htext40 0 0 ABS 0 text40 dist/default/production\FINALULTIM.X.production.o
+__Htext41 0 0 ABS 0 text41 dist/default/production\FINALULTIM.X.production.o
+__Htext42 0 0 ABS 0 text42 dist/default/production\FINALULTIM.X.production.o
+__Htext43 0 0 ABS 0 text43 dist/default/production\FINALULTIM.X.production.o
+__Htext44 0 0 ABS 0 text44 dist/default/production\FINALULTIM.X.production.o
+__Htext45 0 0 ABS 0 text45 dist/default/production\FINALULTIM.X.production.o
+__Htext46 0 0 ABS 0 text46 dist/default/production\FINALULTIM.X.production.o
+__Htext47 0 0 ABS 0 text47 dist/default/production\FINALULTIM.X.production.o
+__Htext48 0 0 ABS 0 text48 dist/default/production\FINALULTIM.X.production.o
+__Htext49 0 0 ABS 0 text49 dist/default/production\FINALULTIM.X.production.o
+__Htext50 0 0 ABS 0 text50 dist/default/production\FINALULTIM.X.production.o
+__Htext51 0 0 ABS 0 text51 dist/default/production\FINALULTIM.X.production.o
+__Htext52 0 0 ABS 0 text52 dist/default/production\FINALULTIM.X.production.o
+__Htext53 0 0 ABS 0 text53 dist/default/production\FINALULTIM.X.production.o
+__Htext54 0 0 ABS 0 text54 dist/default/production\FINALULTIM.X.production.o
+__Htext55 0 0 ABS 0 text55 dist/default/production\FINALULTIM.X.production.o
+__Htext56 0 0 ABS 0 text56 dist/default/production\FINALULTIM.X.production.o
+__Htext57 0 0 ABS 0 text57 dist/default/production\FINALULTIM.X.production.o
+__Htext58 0 0 ABS 0 text58 dist/default/production\FINALULTIM.X.production.o
+__Htext59 0 0 ABS 0 text59 dist/default/production\FINALULTIM.X.production.o
+__Htext60 0 0 ABS 0 text60 dist/default/production\FINALULTIM.X.production.o
+__Htext61 0 0 ABS 0 text61 dist/default/production\FINALULTIM.X.production.o
+__Htext62 0 0 ABS 0 text62 dist/default/production\FINALULTIM.X.production.o
+__Htext63 0 0 ABS 0 text63 dist/default/production\FINALULTIM.X.production.o
+__Htext64 0 0 ABS 0 text64 dist/default/production\FINALULTIM.X.production.o
+__Htext65 0 0 ABS 0 text65 dist/default/production\FINALULTIM.X.production.o
+__Htext66 0 0 ABS 0 text66 dist/default/production\FINALULTIM.X.production.o
+__Htext67 0 0 ABS 0 text67 dist/default/production\FINALULTIM.X.production.o
+__Htext68 0 0 ABS 0 text68 dist/default/production\FINALULTIM.X.production.o
+__Htext69 0 0 ABS 0 text69 dist/default/production\FINALULTIM.X.production.o
+__Htext70 0 0 ABS 0 text70 dist/default/production\FINALULTIM.X.production.o
+__Htext71 0 0 ABS 0 text71 dist/default/production\FINALULTIM.X.production.o
+__Htext72 0 0 ABS 0 text72 dist/default/production\FINALULTIM.X.production.o
+__Htext73 0 0 ABS 0 text73 dist/default/production\FINALULTIM.X.production.o
+__Htext74 0 0 ABS 0 text74 dist/default/production\FINALULTIM.X.production.o
+__Htext75 0 0 ABS 0 text75 dist/default/production\FINALULTIM.X.production.o
+__Htext76 0 0 ABS 0 text76 dist/default/production\FINALULTIM.X.production.o
+__Htext77 0 0 ABS 0 text77 dist/default/production\FINALULTIM.X.production.o
+__Htext78 0 0 ABS 0 text78 dist/default/production\FINALULTIM.X.production.o
+__Htext80 0 0 ABS 0 text80 dist/default/production\FINALULTIM.X.production.o
+__Htext81 0 0 ABS 0 text81 dist/default/production\FINALULTIM.X.production.o
+?i2___wmul 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_changeJoystick 1B52 0 CODE 0 text58 dist/default/production\FINALULTIM.X.production.o
+motorADC@state 48 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_enviaDada F78 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+_activeWritting 1CA8 0 CODE 0 text34 dist/default/production\FINALULTIM.X.production.o
+__end_of_modifyHora D12 0 CODE 0 text4 dist/default/production\FINALULTIM.X.production.o
+__end_of_initSound 19A2 0 CODE 0 text15 dist/default/production\FINALULTIM.X.production.o
+_melody 18 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_recording 42 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_nTotal 2E 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+showLCD_Records@message11 1B5 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+showLCD_Records@message12 1B7 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+showLCD_Records@message21 1B9 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+showLCD_Records@message22 1BB 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__ptext10 1C56 0 CODE 0 text10 dist/default/production\FINALULTIM.X.production.o
+__ptext11 1BFE 0 CODE 0 text11 dist/default/production\FINALULTIM.X.production.o
+__ptext12 1B3A 0 CODE 0 text12 dist/default/production\FINALULTIM.X.production.o
+__ptext13 1748 0 CODE 0 text13 dist/default/production\FINALULTIM.X.production.o
+__ptext14 137E 0 CODE 0 text14 dist/default/production\FINALULTIM.X.production.o
+__ptext15 1974 0 CODE 0 text15 dist/default/production\FINALULTIM.X.production.o
+__ptext16 16BC 0 CODE 0 text16 dist/default/production\FINALULTIM.X.production.o
+__ptext17 1A8C 0 CODE 0 text17 dist/default/production\FINALULTIM.X.production.o
+__ptext18 1C96 0 CODE 0 text18 dist/default/production\FINALULTIM.X.production.o
+__ptext19 F02 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+__ptext20 1C9C 0 CODE 0 text20 dist/default/production\FINALULTIM.X.production.o
+__ptext21 1878 0 CODE 0 text21 dist/default/production\FINALULTIM.X.production.o
+__ptext22 1B82 0 CODE 0 text22 dist/default/production\FINALULTIM.X.production.o
+__ptext23 1702 0 CODE 0 text23 dist/default/production\FINALULTIM.X.production.o
+__ptext24 19A2 0 CODE 0 text24 dist/default/production\FINALULTIM.X.production.o
+__ptext25 50A 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+__ptext26 10C0 0 CODE 0 text26 dist/default/production\FINALULTIM.X.production.o
+__ptext27 AAC 0 CODE 0 text27 dist/default/production\FINALULTIM.X.production.o
+__ptext28 1CA2 0 CODE 0 text28 dist/default/production\FINALULTIM.X.production.o
+__ptext29 1CAE 0 CODE 0 text29 dist/default/production\FINALULTIM.X.production.o
+__ptext30 1AE6 0 CODE 0 text30 dist/default/production\FINALULTIM.X.production.o
+__ptext31 1C10 0 CODE 0 text31 dist/default/production\FINALULTIM.X.production.o
+__ptext32 1C8E 0 CODE 0 text32 dist/default/production\FINALULTIM.X.production.o
+__ptext33 1BC4 0 CODE 0 text33 dist/default/production\FINALULTIM.X.production.o
+__ptext34 1CA8 0 CODE 0 text34 dist/default/production\FINALULTIM.X.production.o
+__ptext35 89C 0 CODE 0 text35 dist/default/production\FINALULTIM.X.production.o
+__ptext36 1AAA 0 CODE 0 text36 dist/default/production\FINALULTIM.X.production.o
+__ptext37 166C 0 CODE 0 text37 dist/default/production\FINALULTIM.X.production.o
+__ptext38 1C76 0 CODE 0 text38 dist/default/production\FINALULTIM.X.production.o
+__ptext39 1BD8 0 CODE 0 text39 dist/default/production\FINALULTIM.X.production.o
+__ptext40 37A 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__ptext41 1DC 0 CODE 0 text41 dist/default/production\FINALULTIM.X.production.o
+__ptext42 642 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+__ptext43 9A6 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+__ptext44 15C6 0 CODE 0 text44 dist/default/production\FINALULTIM.X.production.o
+__ptext45 DCA 0 CODE 0 text45 dist/default/production\FINALULTIM.X.production.o
+__ptext46 1808 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+__ptext47 F9A 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+__ptext48 12AC 0 CODE 0 text48 dist/default/production\FINALULTIM.X.production.o
+__ptext49 1914 0 CODE 0 text49 dist/default/production\FINALULTIM.X.production.o
+__ptext50 1944 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+__ptext51 1B02 0 CODE 0 text51 dist/default/production\FINALULTIM.X.production.o
+__ptext52 1AC8 0 CODE 0 text52 dist/default/production\FINALULTIM.X.production.o
+__ptext53 1B98 0 CODE 0 text53 dist/default/production\FINALULTIM.X.production.o
+__ptext54 113E 0 CODE 0 text54 dist/default/production\FINALULTIM.X.production.o
+__ptext55 D1E 0 CODE 0 text55 dist/default/production\FINALULTIM.X.production.o
+__ptext56 1CB2 0 CODE 0 text56 dist/default/production\FINALULTIM.X.production.o
+__ptext57 1CB6 0 CODE 0 text57 dist/default/production\FINALULTIM.X.production.o
+__ptext58 1B52 0 CODE 0 text58 dist/default/production\FINALULTIM.X.production.o
+__ptext59 1B6A 0 CODE 0 text59 dist/default/production\FINALULTIM.X.production.o
+__ptext60 772 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+__ptext61 1C66 0 CODE 0 text61 dist/default/production\FINALULTIM.X.production.o
+__ptext62 19FC 0 CODE 0 text62 dist/default/production\FINALULTIM.X.production.o
+__ptext63 178A 0 CODE 0 text63 dist/default/production\FINALULTIM.X.production.o
+__ptext64 1C22 0 CODE 0 text64 dist/default/production\FINALULTIM.X.production.o
+__ptext65 1BAE 0 CODE 0 text65 dist/default/production\FINALULTIM.X.production.o
+__ptext66 1C84 0 CODE 0 text66 dist/default/production\FINALULTIM.X.production.o
+__ptext67 1A22 0 CODE 0 text67 dist/default/production\FINALULTIM.X.production.o
+__ptext68 1840 0 CODE 0 text68 dist/default/production\FINALULTIM.X.production.o
+__ptext69 B88 0 CODE 0 text69 dist/default/production\FINALULTIM.X.production.o
+__ptext70 17CA 0 CODE 0 text70 dist/default/production\FINALULTIM.X.production.o
+__ptext71 18E2 0 CODE 0 text71 dist/default/production\FINALULTIM.X.production.o
+__ptext72 19D0 0 CODE 0 text72 dist/default/production\FINALULTIM.X.production.o
+__ptext73 1C34 0 CODE 0 text73 dist/default/production\FINALULTIM.X.production.o
+__ptext74 18AE 0 CODE 0 text74 dist/default/production\FINALULTIM.X.production.o
+__ptext75 11BC 0 CODE 0 text75 dist/default/production\FINALULTIM.X.production.o
+__ptext76 1B1E 0 CODE 0 text76 dist/default/production\FINALULTIM.X.production.o
+__ptext77 13E4 0 CODE 0 text77 dist/default/production\FINALULTIM.X.production.o
+__ptext78 144A 0 CODE 0 text78 dist/default/production\FINALULTIM.X.production.o
+__ptext80 1238 0 CODE 0 text80 dist/default/production\FINALULTIM.X.production.o
+__ptext81 1A48 0 CODE 0 text81 dist/default/production\FINALULTIM.X.production.o
+__end_of_MENU1_LOG 1FF5 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_MENU2_END 1F82 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_showLCD_Records 372 0 CODE 0 text41 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorRX B7C 0 CODE 0 text27 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorTX 61A 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorHora 130C 0 CODE 0 text48 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorMenu 4D0 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__end_of_selectSound 1BF8 0 CODE 0 text9 dist/default/production\FINALULTIM.X.production.o
+_showTime E9 0 BANK0 1 bssBANK0 dist/default/production\FINALULTIM.X.production.o
+__end_of_TiGetTimer 1904 0 CODE 0 text71 dist/default/production\FINALULTIM.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\FINALULTIM.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\FINALULTIM.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\FINALULTIM.X.production.o
+TiGetTimer@counter 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+TiInit@counter 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_posLCD 3A 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_posMax 37 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_posMin 36 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\FINALULTIM.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\FINALULTIM.X.production.o
+_END_MSG 88 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+checkKey@stateAux 68 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+___wmul@multiplier 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_LATAbits F89 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_LATBbits F8A 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_LATCbits F8B 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_LATDbits F8C 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__end_of_SHOW_RECORDING 1F54 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_enviaDada F02 0 CODE 0 text19 dist/default/production\FINALULTIM.X.production.o
+manageLetter@prevKey 6C 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\FINALULTIM.X.production.o
+_initSound 1974 0 CODE 0 text15 dist/default/production\FINALULTIM.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\FINALULTIM.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+_s_Timers 100 0 BANK1 1 bssBANK1 dist/default/production\FINALULTIM.X.production.o
+?_TiGetTics 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_writeName 1A8C 0 CODE 0 text8 dist/default/production\FINALULTIM.X.production.o
+_timer2 3C 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_timer3 1B 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_MENU1_LOG 1FDE 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+_MENU2_END 1F6B 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+CantaPartBaixa@c 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_motorHora 12AC 0 CODE 0 text48 dist/default/production\FINALULTIM.X.production.o
+_motorMenu 37A 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__end_of_motorMelody 101C 0 CODE 0 text47 dist/default/production\FINALULTIM.X.production.o
+stackhi 0 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+stacklo 0 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+enviaDada@c 68 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+actHora@hora 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lintcode 8 0 CODE 0 intcode dist/default/production\FINALULTIM.X.production.o
+actHora@pos 67 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\FINALULTIM.X.production.o
+__end_of_WaitForBusy 1808 0 CODE 0 text70 dist/default/production\FINALULTIM.X.production.o
+TiResetTics@Handle 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\FINALULTIM.X.production.o
+_setMode 1C8E 0 CODE 0 text32 dist/default/production\FINALULTIM.X.production.o
+_ADCON0bits FC2 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+manageLetter@key 6D 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_initTeclat 1B6A 0 CODE 0 text59 dist/default/production\FINALULTIM.X.production.o
+_CantaPartAlta 144A 0 CODE 0 text78 dist/default/production\FINALULTIM.X.production.o
+_NOTHING2 CD 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_sendName E4 0 BANK0 1 bssBANK0 dist/default/production\FINALULTIM.X.production.o
+__pbssCOMRAM 1 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_changeJoystick 1B6A 0 CODE 0 text58 dist/default/production\FINALULTIM.X.production.o
+CantaIR@IR 67 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_manageMinutes 1964 0 CODE 0 text50 dist/default/production\FINALULTIM.X.production.o
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+CantaPartAlta@c 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_activeWritting 1CAE 0 CODE 0 text34 dist/default/production\FINALULTIM.X.production.o
+i2___wmul@multiplicand 5C 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_PIR1bits F9E 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_showLCD 9A6 0 CODE 0 text43 dist/default/production\FINALULTIM.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_writeName 1A6E 0 CODE 0 text8 dist/default/production\FINALULTIM.X.production.o
+motorRX@num 1B2 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_timer@TMenu$F1082 3D 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+end_of_initialization 165E 0 CODE 0 cinit dist/default/production\FINALULTIM.X.production.o
+_showLCD_Records 1DC 0 CODE 0 text41 dist/default/production\FINALULTIM.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\FINALULTIM.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\FINALULTIM.X.production.o
+__end_of_motorTeclat EFC 0 CODE 0 text1 dist/default/production\FINALULTIM.X.production.o
+_LcCursorOn 1C84 0 CODE 0 text66 dist/default/production\FINALULTIM.X.production.o
+_posJoystick 44 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+WaitForBusy@Busy 6C 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+motorTX@num 1B2 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__end_of_LcPutChar 161A 0 CODE 0 text44 dist/default/production\FINALULTIM.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\FINALULTIM.X.production.o
+enviaDada@info 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_enviaMostra 1BEC 0 CODE 0 text39 dist/default/production\FINALULTIM.X.production.o
+_timer@TSms$F1539 21 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_checkKey 1702 0 CODE 0 text23 dist/default/production\FINALULTIM.X.production.o
+_LcGotoXY DCA 0 CODE 0 text45 dist/default/production\FINALULTIM.X.production.o
+__end_of_manageKey 10C0 0 CODE 0 text7 dist/default/production\FINALULTIM.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\FINALULTIM.X.production.o
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\FINALULTIM.X.production.o
+_updateHora 1AC8 0 CODE 0 text52 dist/default/production\FINALULTIM.X.production.o
+_initADC 1A22 0 CODE 0 text67 dist/default/production\FINALULTIM.X.production.o
+_initROM 772 0 CODE 0 text60 dist/default/production\FINALULTIM.X.production.o
+_initSIO 16BC 0 CODE 0 text16 dist/default/production\FINALULTIM.X.production.o
+_initSMS 1B82 0 CODE 0 text22 dist/default/production\FINALULTIM.X.production.o
+__Lramtop 200 0 RAM 0 ramtop dist/default/production\FINALULTIM.X.production.o
+_updateNT 1CAE 0 CODE 0 text29 dist/default/production\FINALULTIM.X.production.o
+_updatePT 1CA2 0 CODE 0 text28 dist/default/production\FINALULTIM.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\FINALULTIM.X.production.o
+__pcinit 161A 0 CODE 0 cinit dist/default/production\FINALULTIM.X.production.o
+__ptext0 1514 0 CODE 0 text0 dist/default/production\FINALULTIM.X.production.o
+__ptext1 E68 0 CODE 0 text1 dist/default/production\FINALULTIM.X.production.o
+__ptext2 1316 0 CODE 0 text2 dist/default/production\FINALULTIM.X.production.o
+__ptext3 38 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+__ptext4 C54 0 CODE 0 text4 dist/default/production\FINALULTIM.X.production.o
+__ptext5 1570 0 CODE 0 text5 dist/default/production\FINALULTIM.X.production.o
+__ptext6 1C46 0 CODE 0 text6 dist/default/production\FINALULTIM.X.production.o
+__ptext7 1032 0 CODE 0 text7 dist/default/production\FINALULTIM.X.production.o
+__ptext8 1A6E 0 CODE 0 text8 dist/default/production\FINALULTIM.X.production.o
+__ptext9 1BEC 0 CODE 0 text9 dist/default/production\FINALULTIM.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\FINALULTIM.X.production.o
+_caseMenu 3B 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\FINALULTIM.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\FINALULTIM.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\FINALULTIM.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\FINALULTIM.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\FINALULTIM.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\FINALULTIM.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\FINALULTIM.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\FINALULTIM.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\FINALULTIM.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\FINALULTIM.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\FINALULTIM.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\FINALULTIM.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\FINALULTIM.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\FINALULTIM.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\FINALULTIM.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\FINALULTIM.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\FINALULTIM.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\FINALULTIM.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\FINALULTIM.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\FINALULTIM.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\FINALULTIM.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\FINALULTIM.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\FINALULTIM.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\FINALULTIM.X.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\FINALULTIM.X.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production\FINALULTIM.X.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production\FINALULTIM.X.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production\FINALULTIM.X.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production\FINALULTIM.X.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production\FINALULTIM.X.production.o
+__Ltext40 0 0 ABS 0 text40 dist/default/production\FINALULTIM.X.production.o
+__Ltext41 0 0 ABS 0 text41 dist/default/production\FINALULTIM.X.production.o
+__Ltext42 0 0 ABS 0 text42 dist/default/production\FINALULTIM.X.production.o
+__Ltext43 0 0 ABS 0 text43 dist/default/production\FINALULTIM.X.production.o
+__Ltext44 0 0 ABS 0 text44 dist/default/production\FINALULTIM.X.production.o
+__Ltext45 0 0 ABS 0 text45 dist/default/production\FINALULTIM.X.production.o
+__Ltext46 0 0 ABS 0 text46 dist/default/production\FINALULTIM.X.production.o
+__Ltext47 0 0 ABS 0 text47 dist/default/production\FINALULTIM.X.production.o
+__Ltext48 0 0 ABS 0 text48 dist/default/production\FINALULTIM.X.production.o
+__Ltext49 0 0 ABS 0 text49 dist/default/production\FINALULTIM.X.production.o
+__Ltext50 0 0 ABS 0 text50 dist/default/production\FINALULTIM.X.production.o
+__Ltext51 0 0 ABS 0 text51 dist/default/production\FINALULTIM.X.production.o
+__Ltext52 0 0 ABS 0 text52 dist/default/production\FINALULTIM.X.production.o
+__Ltext53 0 0 ABS 0 text53 dist/default/production\FINALULTIM.X.production.o
+__Ltext54 0 0 ABS 0 text54 dist/default/production\FINALULTIM.X.production.o
+__Ltext55 0 0 ABS 0 text55 dist/default/production\FINALULTIM.X.production.o
+__Ltext56 0 0 ABS 0 text56 dist/default/production\FINALULTIM.X.production.o
+__Ltext57 0 0 ABS 0 text57 dist/default/production\FINALULTIM.X.production.o
+__Ltext58 0 0 ABS 0 text58 dist/default/production\FINALULTIM.X.production.o
+__Ltext59 0 0 ABS 0 text59 dist/default/production\FINALULTIM.X.production.o
+__Ltext60 0 0 ABS 0 text60 dist/default/production\FINALULTIM.X.production.o
+__Ltext61 0 0 ABS 0 text61 dist/default/production\FINALULTIM.X.production.o
+__Ltext62 0 0 ABS 0 text62 dist/default/production\FINALULTIM.X.production.o
+__Ltext63 0 0 ABS 0 text63 dist/default/production\FINALULTIM.X.production.o
+__Ltext64 0 0 ABS 0 text64 dist/default/production\FINALULTIM.X.production.o
+__Ltext65 0 0 ABS 0 text65 dist/default/production\FINALULTIM.X.production.o
+__Ltext66 0 0 ABS 0 text66 dist/default/production\FINALULTIM.X.production.o
+__Ltext67 0 0 ABS 0 text67 dist/default/production\FINALULTIM.X.production.o
+__Ltext68 0 0 ABS 0 text68 dist/default/production\FINALULTIM.X.production.o
+__Ltext69 0 0 ABS 0 text69 dist/default/production\FINALULTIM.X.production.o
+__Ltext70 0 0 ABS 0 text70 dist/default/production\FINALULTIM.X.production.o
+__Ltext71 0 0 ABS 0 text71 dist/default/production\FINALULTIM.X.production.o
+__Ltext72 0 0 ABS 0 text72 dist/default/production\FINALULTIM.X.production.o
+__Ltext73 0 0 ABS 0 text73 dist/default/production\FINALULTIM.X.production.o
+__Ltext74 0 0 ABS 0 text74 dist/default/production\FINALULTIM.X.production.o
+__Ltext75 0 0 ABS 0 text75 dist/default/production\FINALULTIM.X.production.o
+__Ltext76 0 0 ABS 0 text76 dist/default/production\FINALULTIM.X.production.o
+__Ltext77 0 0 ABS 0 text77 dist/default/production\FINALULTIM.X.production.o
+__Ltext78 0 0 ABS 0 text78 dist/default/production\FINALULTIM.X.production.o
+__Ltext80 0 0 ABS 0 text80 dist/default/production\FINALULTIM.X.production.o
+__Ltext81 0 0 ABS 0 text81 dist/default/production\FINALULTIM.X.production.o
+checkKey@column 69 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_checkKey 1748 0 CODE 0 text23 dist/default/production\FINALULTIM.X.production.o
+__end_of_LcGotoXY E5E 0 CODE 0 text45 dist/default/production\FINALULTIM.X.production.o
+__ramtop 200 0 RAM 0 ramtop C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+__end_of_updateNT 1CB2 0 CODE 0 text29 dist/default/production\FINALULTIM.X.production.o
+__end_of_updatePT 1CA8 0 CODE 0 text28 dist/default/production\FINALULTIM.X.production.o
+__Lpowerup 34 0 CODE 0 powerup dist/default/production\FINALULTIM.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\FINALULTIM.X.production.o
+changeJoystick@pos 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_LcPutChar 15C6 0 CODE 0 text44 dist/default/production\FINALULTIM.X.production.o
+_manageKey 1032 0 CODE 0 text7 dist/default/production\FINALULTIM.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\FINALULTIM.X.production.o
+showLCD@message1 1B5 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+showLCD@message2 1B7 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__end_of_CantaData 1828 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+_timerADC 4B 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_newHora 1B1E 0 CODE 0 text51 dist/default/production\FINALULTIM.X.production.o
+manageKey@countChar 1B5 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+motorMelody@state2 16 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_initTeclat 1B82 0 CODE 0 text59 dist/default/production\FINALULTIM.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+___heap_lo 0 0 ABS 0 - C:\Users\guimo\AppData\Local\Temp\xcAs1bc.o
+printLetter@posY 71 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\FINALULTIM.X.production.o
+__end_of__initialization 165E 0 CODE 0 cinit dist/default/production\FINALULTIM.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\FINALULTIM.X.production.o
+__pidataBANK0 14B0 0 CODE 0 idataBANK0 dist/default/production\FINALULTIM.X.production.o
+__end_of_CantaIR 1B3A 0 CODE 0 text76 dist/default/production\FINALULTIM.X.production.o
+newHora@mod 6C 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+newHora@pos 6D 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_changeMenu 1BC4 0 CODE 0 text33 dist/default/production\FINALULTIM.X.production.o
+_changeMode 1C10 0 CODE 0 text31 dist/default/production\FINALULTIM.X.production.o
+_cleanPortName 1878 0 CODE 0 text21 dist/default/production\FINALULTIM.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\FINALULTIM.X.production.o
+_showLCD$1118 1B9 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_showLCD$1119 1BB 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+CantaData@Data 67 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_LcGotoXY$320 1B0 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+__end_of_LcCursorOn 1C8E 0 CODE 0 text66 dist/default/production\FINALULTIM.X.production.o
+_CantaData 1808 0 CODE 0 text46 dist/default/production\FINALULTIM.X.production.o
+_initCentral 1A8C 0 CODE 0 text17 dist/default/production\FINALULTIM.X.production.o
+_posMin2 35 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_changePos DCA 0 CODE 0 text55 dist/default/production\FINALULTIM.X.production.o
+_showLCD_Marq 642 0 CODE 0 text42 dist/default/production\FINALULTIM.X.production.o
+_SHOW_MODY_TIME 1F26 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__pcstackCOMRAM 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_TXSTAbits FAC 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_timer2@TSound$F1622 1C 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_MENU2_MODIFY 1F99 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__pmediumconst 1EEC 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_updateHora 1AE6 0 CODE 0 text52 dist/default/production\FINALULTIM.X.production.o
+initROM@i 70 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+initROM@j 6E 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_actHora 1BAE 0 CODE 0 text53 dist/default/production\FINALULTIM.X.production.o
+_prevKey 1F 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_ofPL100 F02 0 CODE 0 text1 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL102 1DC 0 CODE 0 text3 dist/default/production\FINALULTIM.X.production.o
+__end_ofPL104 50A 0 CODE 0 text40 dist/default/production\FINALULTIM.X.production.o
+__end_of_key2 1F0F 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key3 1F0B 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key4 1F07 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key5 1F03 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key6 1EFF 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key7 1EF7 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key8 1EFB 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_key9 1EF2 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__end_of_main 1570 0 CODE 0 text0 dist/default/production\FINALULTIM.X.production.o
+__pintcode 8 0 CODE 0 intcode dist/default/production\FINALULTIM.X.production.o
+LcInit@columns 72 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_pressSound 1B3A 0 CODE 0 text12 dist/default/production\FINALULTIM.X.production.o
+changePos@num2 1B8 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_EEADR FA9 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_EMPTY B6 0 BANK0 1 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+__end_of_getNT 1CBA 0 CODE 0 text57 dist/default/production\FINALULTIM.X.production.o
+__end_of_getPT 1CB6 0 CODE 0 text56 dist/default/production\FINALULTIM.X.production.o
+_PORTD F83 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_RCREG FAE 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_RCSTA FAB 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_SPBRG FAF 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_TMR0L FD6 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_TRISD F95 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_TXREG FAD 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_TXSTA FAC 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+_Timer F 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\FINALULTIM.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\FINALULTIM.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\FINALULTIM.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\FINALULTIM.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\FINALULTIM.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\FINALULTIM.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\FINALULTIM.X.production.o
+_count 46 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_empty 39 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_getNT 1CB6 0 CODE 0 text57 dist/default/production\FINALULTIM.X.production.o
+_getPT 1CB2 0 CODE 0 text56 dist/default/production\FINALULTIM.X.production.o
+_sound 19 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_state 14 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_timer 40 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+motorMicro@states 47 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_LcClear 1BAE 0 CODE 0 text65 dist/default/production\FINALULTIM.X.production.o
+_changePos D1E 0 CODE 0 text55 dist/default/production\FINALULTIM.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\FINALULTIM.X.production.o
+selectSound@ind 65 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_printLetter 1C10 0 CODE 0 text11 dist/default/production\FINALULTIM.X.production.o
+_playMelody 1AE6 0 CODE 0 text30 dist/default/production\FINALULTIM.X.production.o
+__initialization 161A 0 CODE 0 cinit dist/default/production\FINALULTIM.X.production.o
+__end_of_enterMode 13E4 0 CODE 0 text14 dist/default/production\FINALULTIM.X.production.o
+__pbssBANK0 E4 0 BANK0 1 bssBANK0 dist/default/production\FINALULTIM.X.production.o
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/production\FINALULTIM.X.production.o
+saveLetter@key 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+_columna 11 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_counter 32 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\FINALULTIM.X.production.o
+___wmul@product 69 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\FINALULTIM.X.production.o
+__end_of_MENU2_START 1FDE 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+LcPutChar@c 70 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__end_of_CantaPartAlta 14A6 0 CODE 0 text78 dist/default/production\FINALULTIM.X.production.o
+_recordings 160 0 BANK1 1 bssBANK1 dist/default/production\FINALULTIM.X.production.o
+_motorRX AAC 0 CODE 0 text27 dist/default/production\FINALULTIM.X.production.o
+_motorTX 50A 0 CODE 0 text25 dist/default/production\FINALULTIM.X.production.o
+sendSound@sound 66 0 COMRAM 1 cstackCOMRAM dist/default/production\FINALULTIM.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\FINALULTIM.X.production.o
+__end_of_checkFila 19D0 0 CODE 0 text24 dist/default/production\FINALULTIM.X.production.o
+showLCD_Marq@message1 1B5 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+showLCD_Marq@message2 1B7 0 BANK1 1 cstackBANK1 dist/default/production\FINALULTIM.X.production.o
+_portName 56 0 COMRAM 1 bssCOMRAM dist/default/production\FINALULTIM.X.production.o
+_TiResetTics 1C34 0 CODE 0 text73 dist/default/production\FINALULTIM.X.production.o
+__end_of_Espera 19FC 0 CODE 0 text72 dist/default/production\FINALULTIM.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\FINALULTIM.X.production.o
+__end_of_changeMenu 1BD8 0 CODE 0 text33 dist/default/production\FINALULTIM.X.production.o
+__end_of_changeMode 1C22 0 CODE 0 text31 dist/default/production\FINALULTIM.X.production.o
+__end_of_NOTHING 1F6B 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+__Hintcode 34 0 CODE 0 intcode dist/default/production\FINALULTIM.X.production.o
+__end_of_SHOW_MODY_TIME 1F3D 0 MEDIUMCONST 0 mediumconst dist/default/production\FINALULTIM.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 4 1
+bssBANK1 1 100 100 C3 1
+intcode 0 8 8 1CB2 1
+dataBANK0 1 80 80 80 1
+bssCOMRAM 1 1 1 74 1
+mediumconst 0 1EEC 1EEC 114 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
